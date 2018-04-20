@@ -78,6 +78,7 @@ fun makeMatchList (nil) = raise emptyDecList
     | Append
     | ListCons
     | Comma
+    | Tilde
     | Semicolon
     | Underscore
     | Arrow
@@ -110,7 +111,7 @@ fun makeMatchList (nil) = raise emptyDecList
     | SetEqual
     | Exclaim
 
-
+(* ~ ~ ~ 6 => (~ (~ (~ 6))) *)
 
 %nonterm Prog of exp
        | Exp of exp
@@ -133,7 +134,7 @@ fun makeMatchList (nil) = raise emptyDecList
 %left Plus Minus Append Equals NotEqual
 %left Times Div Mod Greater Less GreaterEqual LessEqual 
 %right ListCons
-%right Exclaim
+%right Exclaim Tilde
 
 %%
 
@@ -166,6 +167,7 @@ Exp : Con                                                  (Con)
     | Exp Equals FuncExp                                   (infixexp("=",Exp,FuncExp))
     | Exp NotEqual FuncExp                                 (infixexp("<>",Exp,FuncExp))
     | Exp Append FuncExp                                   (infixexp("@",Exp,FuncExp))
+    | Tilde Exp                                            (negate(Exp))
     | Exp ListCons FuncExp                                 (infixexp("::",Exp,FuncExp))
     | LParen RParen                                        (tuplecon([]))
     | LParen Exp RParen                                    (Exp)

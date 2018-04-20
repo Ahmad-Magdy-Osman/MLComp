@@ -1,0 +1,5545 @@
+104 reduce/reduce conflicts
+277 shift/reduce conflicts
+1 rule not reduced
+
+warning: rule <Con : LParen RParen > will never be reduced
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on Exclaim
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on Id
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on False
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on True
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on Int
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on Char
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on String
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on Raise
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on While
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on Fn
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on If
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on Let
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on LBracket
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on Tilde
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on LParen
+error:  state 19: shift/reduce conflict (shift Handle, reduce by rule 3)
+error:  state 19: shift/reduce conflict (shift Equals, reduce by rule 3)
+error:  state 19: shift/reduce conflict (shift ListCons, reduce by rule 3)
+error:  state 19: shift/reduce conflict (shift Append, reduce by rule 3)
+error:  state 19: shift/reduce conflict (shift NotEqual, reduce by rule 3)
+error:  state 19: shift/reduce conflict (shift LessEqual, reduce by rule 3)
+error:  state 19: shift/reduce conflict (shift GreaterEqual, reduce by rule 3)
+error:  state 19: shift/reduce conflict (shift Less, reduce by rule 3)
+error:  state 19: shift/reduce conflict (shift Greater, reduce by rule 3)
+error:  state 19: shift/reduce conflict (shift Mod, reduce by rule 3)
+error:  state 19: shift/reduce conflict (shift Div, reduce by rule 3)
+error:  state 19: shift/reduce conflict (shift Times, reduce by rule 3)
+error:  state 19: shift/reduce conflict (shift Minus, reduce by rule 3)
+error:  state 19: shift/reduce conflict (shift Plus, reduce by rule 3)
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on Exclaim
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on Id
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on False
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on True
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on Int
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on Char
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on String
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on Raise
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on While
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on Fn
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on If
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on Let
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on LBracket
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on Tilde
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on LParen
+error:  state 35: shift/reduce conflict (shift Handle, reduce by rule 4)
+error:  state 37: shift/reduce conflict (shift Exclaim, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift Id, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift False, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift True, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift Int, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift Char, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift String, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift Raise, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift While, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift Fn, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift If, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift Let, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift LBracket, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift Tilde, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift LParen, reduce by rule 27)
+error:  state 38: shift/reduce conflict (shift Handle, reduce by rule 32)
+error:  state 38: shift/reduce conflict (shift Equals, reduce by rule 32)
+error:  state 38: shift/reduce conflict (shift ListCons, reduce by rule 32)
+error:  state 38: shift/reduce conflict (shift Append, reduce by rule 32)
+error:  state 38: shift/reduce conflict (shift NotEqual, reduce by rule 32)
+error:  state 38: shift/reduce conflict (shift LessEqual, reduce by rule 32)
+error:  state 38: shift/reduce conflict (shift GreaterEqual, reduce by rule 32)
+error:  state 38: shift/reduce conflict (shift Less, reduce by rule 32)
+error:  state 38: shift/reduce conflict (shift Greater, reduce by rule 32)
+error:  state 38: shift/reduce conflict (shift Mod, reduce by rule 32)
+error:  state 38: shift/reduce conflict (shift Div, reduce by rule 32)
+error:  state 38: shift/reduce conflict (shift Times, reduce by rule 32)
+error:  state 38: shift/reduce conflict (shift Minus, reduce by rule 32)
+error:  state 38: shift/reduce conflict (shift Plus, reduce by rule 32)
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on Exclaim
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on Id
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on False
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on True
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on Int
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on Char
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on String
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on Raise
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on While
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on Fn
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on If
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on Let
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on LBracket
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on Tilde
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on LParen
+error:  state 59: shift/reduce conflict (shift Handle, reduce by rule 18)
+error:  state 62: reduce/reduce conflict between rule 35 and rule 33 on RParen
+error:  state 62: shift/reduce conflict (shift RParen, reduce by rule 33)
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Exclaim
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Id
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on False
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on True
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Int
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Char
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on String
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on And
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Raise
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Handle
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Do
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on While
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Fn
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Else
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Then
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on If
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on End
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on In
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Val
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Let
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Fun
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on RBracket
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on LBracket
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on VerticalBar
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Equals
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Semicolon
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Tilde
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Comma
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on ListCons
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Append
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on NotEqual
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on LessEqual
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on GreaterEqual
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Less
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Greater
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Mod
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Div
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Times
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Minus
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Plus
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on RParen
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on LParen
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on EOF
+error:  state 65: shift/reduce conflict (shift Id, reduce by rule 15)
+error:  state 65: shift/reduce conflict (shift False, reduce by rule 15)
+error:  state 65: shift/reduce conflict (shift True, reduce by rule 15)
+error:  state 65: shift/reduce conflict (shift Int, reduce by rule 15)
+error:  state 65: shift/reduce conflict (shift Char, reduce by rule 15)
+error:  state 65: shift/reduce conflict (shift String, reduce by rule 15)
+error:  state 65: shift/reduce conflict (shift Raise, reduce by rule 15)
+error:  state 65: shift/reduce conflict (shift While, reduce by rule 15)
+error:  state 65: shift/reduce conflict (shift Fn, reduce by rule 15)
+error:  state 65: shift/reduce conflict (shift If, reduce by rule 15)
+error:  state 65: shift/reduce conflict (shift Let, reduce by rule 15)
+error:  state 65: shift/reduce conflict (shift LBracket, reduce by rule 15)
+error:  state 65: shift/reduce conflict (shift LParen, reduce by rule 15)
+error:  state 66: shift/reduce conflict (shift Id, reduce by rule 19)
+error:  state 66: shift/reduce conflict (shift False, reduce by rule 19)
+error:  state 66: shift/reduce conflict (shift True, reduce by rule 19)
+error:  state 66: shift/reduce conflict (shift Int, reduce by rule 19)
+error:  state 66: shift/reduce conflict (shift Char, reduce by rule 19)
+error:  state 66: shift/reduce conflict (shift String, reduce by rule 19)
+error:  state 66: shift/reduce conflict (shift Raise, reduce by rule 19)
+error:  state 66: shift/reduce conflict (shift While, reduce by rule 19)
+error:  state 66: shift/reduce conflict (shift Fn, reduce by rule 19)
+error:  state 66: shift/reduce conflict (shift If, reduce by rule 19)
+error:  state 66: shift/reduce conflict (shift Let, reduce by rule 19)
+error:  state 66: shift/reduce conflict (shift LBracket, reduce by rule 19)
+error:  state 66: shift/reduce conflict (shift LParen, reduce by rule 19)
+error:  state 67: shift/reduce conflict (shift Id, reduce by rule 17)
+error:  state 67: shift/reduce conflict (shift False, reduce by rule 17)
+error:  state 67: shift/reduce conflict (shift True, reduce by rule 17)
+error:  state 67: shift/reduce conflict (shift Int, reduce by rule 17)
+error:  state 67: shift/reduce conflict (shift Char, reduce by rule 17)
+error:  state 67: shift/reduce conflict (shift String, reduce by rule 17)
+error:  state 67: shift/reduce conflict (shift Raise, reduce by rule 17)
+error:  state 67: shift/reduce conflict (shift While, reduce by rule 17)
+error:  state 67: shift/reduce conflict (shift Fn, reduce by rule 17)
+error:  state 67: shift/reduce conflict (shift If, reduce by rule 17)
+error:  state 67: shift/reduce conflict (shift Let, reduce by rule 17)
+error:  state 67: shift/reduce conflict (shift LBracket, reduce by rule 17)
+error:  state 67: shift/reduce conflict (shift LParen, reduce by rule 17)
+error:  state 68: shift/reduce conflict (shift Id, reduce by rule 16)
+error:  state 68: shift/reduce conflict (shift False, reduce by rule 16)
+error:  state 68: shift/reduce conflict (shift True, reduce by rule 16)
+error:  state 68: shift/reduce conflict (shift Int, reduce by rule 16)
+error:  state 68: shift/reduce conflict (shift Char, reduce by rule 16)
+error:  state 68: shift/reduce conflict (shift String, reduce by rule 16)
+error:  state 68: shift/reduce conflict (shift Raise, reduce by rule 16)
+error:  state 68: shift/reduce conflict (shift While, reduce by rule 16)
+error:  state 68: shift/reduce conflict (shift Fn, reduce by rule 16)
+error:  state 68: shift/reduce conflict (shift If, reduce by rule 16)
+error:  state 68: shift/reduce conflict (shift Let, reduce by rule 16)
+error:  state 68: shift/reduce conflict (shift LBracket, reduce by rule 16)
+error:  state 68: shift/reduce conflict (shift LParen, reduce by rule 16)
+error:  state 69: shift/reduce conflict (shift Id, reduce by rule 14)
+error:  state 69: shift/reduce conflict (shift False, reduce by rule 14)
+error:  state 69: shift/reduce conflict (shift True, reduce by rule 14)
+error:  state 69: shift/reduce conflict (shift Int, reduce by rule 14)
+error:  state 69: shift/reduce conflict (shift Char, reduce by rule 14)
+error:  state 69: shift/reduce conflict (shift String, reduce by rule 14)
+error:  state 69: shift/reduce conflict (shift Raise, reduce by rule 14)
+error:  state 69: shift/reduce conflict (shift While, reduce by rule 14)
+error:  state 69: shift/reduce conflict (shift Fn, reduce by rule 14)
+error:  state 69: shift/reduce conflict (shift If, reduce by rule 14)
+error:  state 69: shift/reduce conflict (shift Let, reduce by rule 14)
+error:  state 69: shift/reduce conflict (shift LBracket, reduce by rule 14)
+error:  state 69: shift/reduce conflict (shift LParen, reduce by rule 14)
+error:  state 70: shift/reduce conflict (shift Id, reduce by rule 12)
+error:  state 70: shift/reduce conflict (shift False, reduce by rule 12)
+error:  state 70: shift/reduce conflict (shift True, reduce by rule 12)
+error:  state 70: shift/reduce conflict (shift Int, reduce by rule 12)
+error:  state 70: shift/reduce conflict (shift Char, reduce by rule 12)
+error:  state 70: shift/reduce conflict (shift String, reduce by rule 12)
+error:  state 70: shift/reduce conflict (shift Raise, reduce by rule 12)
+error:  state 70: shift/reduce conflict (shift While, reduce by rule 12)
+error:  state 70: shift/reduce conflict (shift Fn, reduce by rule 12)
+error:  state 70: shift/reduce conflict (shift If, reduce by rule 12)
+error:  state 70: shift/reduce conflict (shift Let, reduce by rule 12)
+error:  state 70: shift/reduce conflict (shift LBracket, reduce by rule 12)
+error:  state 70: shift/reduce conflict (shift LParen, reduce by rule 12)
+error:  state 71: shift/reduce conflict (shift Id, reduce by rule 13)
+error:  state 71: shift/reduce conflict (shift False, reduce by rule 13)
+error:  state 71: shift/reduce conflict (shift True, reduce by rule 13)
+error:  state 71: shift/reduce conflict (shift Int, reduce by rule 13)
+error:  state 71: shift/reduce conflict (shift Char, reduce by rule 13)
+error:  state 71: shift/reduce conflict (shift String, reduce by rule 13)
+error:  state 71: shift/reduce conflict (shift Raise, reduce by rule 13)
+error:  state 71: shift/reduce conflict (shift While, reduce by rule 13)
+error:  state 71: shift/reduce conflict (shift Fn, reduce by rule 13)
+error:  state 71: shift/reduce conflict (shift If, reduce by rule 13)
+error:  state 71: shift/reduce conflict (shift Let, reduce by rule 13)
+error:  state 71: shift/reduce conflict (shift LBracket, reduce by rule 13)
+error:  state 71: shift/reduce conflict (shift LParen, reduce by rule 13)
+error:  state 72: shift/reduce conflict (shift Id, reduce by rule 11)
+error:  state 72: shift/reduce conflict (shift False, reduce by rule 11)
+error:  state 72: shift/reduce conflict (shift True, reduce by rule 11)
+error:  state 72: shift/reduce conflict (shift Int, reduce by rule 11)
+error:  state 72: shift/reduce conflict (shift Char, reduce by rule 11)
+error:  state 72: shift/reduce conflict (shift String, reduce by rule 11)
+error:  state 72: shift/reduce conflict (shift Raise, reduce by rule 11)
+error:  state 72: shift/reduce conflict (shift While, reduce by rule 11)
+error:  state 72: shift/reduce conflict (shift Fn, reduce by rule 11)
+error:  state 72: shift/reduce conflict (shift If, reduce by rule 11)
+error:  state 72: shift/reduce conflict (shift Let, reduce by rule 11)
+error:  state 72: shift/reduce conflict (shift LBracket, reduce by rule 11)
+error:  state 72: shift/reduce conflict (shift LParen, reduce by rule 11)
+error:  state 73: shift/reduce conflict (shift Id, reduce by rule 10)
+error:  state 73: shift/reduce conflict (shift False, reduce by rule 10)
+error:  state 73: shift/reduce conflict (shift True, reduce by rule 10)
+error:  state 73: shift/reduce conflict (shift Int, reduce by rule 10)
+error:  state 73: shift/reduce conflict (shift Char, reduce by rule 10)
+error:  state 73: shift/reduce conflict (shift String, reduce by rule 10)
+error:  state 73: shift/reduce conflict (shift Raise, reduce by rule 10)
+error:  state 73: shift/reduce conflict (shift While, reduce by rule 10)
+error:  state 73: shift/reduce conflict (shift Fn, reduce by rule 10)
+error:  state 73: shift/reduce conflict (shift If, reduce by rule 10)
+error:  state 73: shift/reduce conflict (shift Let, reduce by rule 10)
+error:  state 73: shift/reduce conflict (shift LBracket, reduce by rule 10)
+error:  state 73: shift/reduce conflict (shift LParen, reduce by rule 10)
+error:  state 74: shift/reduce conflict (shift Id, reduce by rule 9)
+error:  state 74: shift/reduce conflict (shift False, reduce by rule 9)
+error:  state 74: shift/reduce conflict (shift True, reduce by rule 9)
+error:  state 74: shift/reduce conflict (shift Int, reduce by rule 9)
+error:  state 74: shift/reduce conflict (shift Char, reduce by rule 9)
+error:  state 74: shift/reduce conflict (shift String, reduce by rule 9)
+error:  state 74: shift/reduce conflict (shift Raise, reduce by rule 9)
+error:  state 74: shift/reduce conflict (shift While, reduce by rule 9)
+error:  state 74: shift/reduce conflict (shift Fn, reduce by rule 9)
+error:  state 74: shift/reduce conflict (shift If, reduce by rule 9)
+error:  state 74: shift/reduce conflict (shift Let, reduce by rule 9)
+error:  state 74: shift/reduce conflict (shift LBracket, reduce by rule 9)
+error:  state 74: shift/reduce conflict (shift LParen, reduce by rule 9)
+error:  state 75: shift/reduce conflict (shift Id, reduce by rule 8)
+error:  state 75: shift/reduce conflict (shift False, reduce by rule 8)
+error:  state 75: shift/reduce conflict (shift True, reduce by rule 8)
+error:  state 75: shift/reduce conflict (shift Int, reduce by rule 8)
+error:  state 75: shift/reduce conflict (shift Char, reduce by rule 8)
+error:  state 75: shift/reduce conflict (shift String, reduce by rule 8)
+error:  state 75: shift/reduce conflict (shift Raise, reduce by rule 8)
+error:  state 75: shift/reduce conflict (shift While, reduce by rule 8)
+error:  state 75: shift/reduce conflict (shift Fn, reduce by rule 8)
+error:  state 75: shift/reduce conflict (shift If, reduce by rule 8)
+error:  state 75: shift/reduce conflict (shift Let, reduce by rule 8)
+error:  state 75: shift/reduce conflict (shift LBracket, reduce by rule 8)
+error:  state 75: shift/reduce conflict (shift LParen, reduce by rule 8)
+error:  state 76: shift/reduce conflict (shift Id, reduce by rule 7)
+error:  state 76: shift/reduce conflict (shift False, reduce by rule 7)
+error:  state 76: shift/reduce conflict (shift True, reduce by rule 7)
+error:  state 76: shift/reduce conflict (shift Int, reduce by rule 7)
+error:  state 76: shift/reduce conflict (shift Char, reduce by rule 7)
+error:  state 76: shift/reduce conflict (shift String, reduce by rule 7)
+error:  state 76: shift/reduce conflict (shift Raise, reduce by rule 7)
+error:  state 76: shift/reduce conflict (shift While, reduce by rule 7)
+error:  state 76: shift/reduce conflict (shift Fn, reduce by rule 7)
+error:  state 76: shift/reduce conflict (shift If, reduce by rule 7)
+error:  state 76: shift/reduce conflict (shift Let, reduce by rule 7)
+error:  state 76: shift/reduce conflict (shift LBracket, reduce by rule 7)
+error:  state 76: shift/reduce conflict (shift LParen, reduce by rule 7)
+error:  state 77: shift/reduce conflict (shift Id, reduce by rule 6)
+error:  state 77: shift/reduce conflict (shift False, reduce by rule 6)
+error:  state 77: shift/reduce conflict (shift True, reduce by rule 6)
+error:  state 77: shift/reduce conflict (shift Int, reduce by rule 6)
+error:  state 77: shift/reduce conflict (shift Char, reduce by rule 6)
+error:  state 77: shift/reduce conflict (shift String, reduce by rule 6)
+error:  state 77: shift/reduce conflict (shift Raise, reduce by rule 6)
+error:  state 77: shift/reduce conflict (shift While, reduce by rule 6)
+error:  state 77: shift/reduce conflict (shift Fn, reduce by rule 6)
+error:  state 77: shift/reduce conflict (shift If, reduce by rule 6)
+error:  state 77: shift/reduce conflict (shift Let, reduce by rule 6)
+error:  state 77: shift/reduce conflict (shift LBracket, reduce by rule 6)
+error:  state 77: shift/reduce conflict (shift LParen, reduce by rule 6)
+error:  state 78: shift/reduce conflict (shift Id, reduce by rule 5)
+error:  state 78: shift/reduce conflict (shift False, reduce by rule 5)
+error:  state 78: shift/reduce conflict (shift True, reduce by rule 5)
+error:  state 78: shift/reduce conflict (shift Int, reduce by rule 5)
+error:  state 78: shift/reduce conflict (shift Char, reduce by rule 5)
+error:  state 78: shift/reduce conflict (shift String, reduce by rule 5)
+error:  state 78: shift/reduce conflict (shift Raise, reduce by rule 5)
+error:  state 78: shift/reduce conflict (shift While, reduce by rule 5)
+error:  state 78: shift/reduce conflict (shift Fn, reduce by rule 5)
+error:  state 78: shift/reduce conflict (shift If, reduce by rule 5)
+error:  state 78: shift/reduce conflict (shift Let, reduce by rule 5)
+error:  state 78: shift/reduce conflict (shift LBracket, reduce by rule 5)
+error:  state 78: shift/reduce conflict (shift LParen, reduce by rule 5)
+error:  state 87: shift/reduce conflict (shift RParen, reduce by rule 53)
+error:  state 105: shift/reduce conflict (shift Exclaim, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift Id, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift False, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift True, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift Int, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift Char, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift String, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift Raise, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift While, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift Fn, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift If, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift Let, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift LBracket, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift Tilde, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift LParen, reduce by rule 30)
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on Exclaim
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on Id
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on False
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on True
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on Int
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on Char
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on String
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on Raise
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on While
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on Fn
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on If
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on Let
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on LBracket
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on Tilde
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on LParen
+error:  state 106: shift/reduce conflict (shift Handle, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift VerticalBar, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift Equals, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift ListCons, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift Append, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift NotEqual, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift LessEqual, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift GreaterEqual, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift Less, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift Greater, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift Mod, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift Div, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift Times, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift Minus, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift Plus, reduce by rule 37)
+error:  state 108: shift/reduce conflict (shift ListCons, reduce by rule 52)
+error:  state 120: shift/reduce conflict (shift Equals, reduce by rule 55)
+error:  state 129: shift/reduce conflict (shift And, reduce by rule 65)
+error:  state 135: shift/reduce conflict (shift Exclaim, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift Id, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift False, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift True, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift Int, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift Char, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift String, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift Raise, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift While, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift Fn, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift If, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift Let, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift LBracket, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift Tilde, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift LParen, reduce by rule 29)
+
+state 0:
+
+	Prog : . Exp EOF 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Prog	goto 146
+	Exp	goto 3
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+
+state 1:
+
+	Exp : FuncExp . Exp 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 19
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+
+state 2:
+
+	Exp : Con .  (reduce by rule 1)
+
+	EOF	reduce by rule 1
+	LParen	reduce by rule 1
+	RParen	reduce by rule 1
+	Plus	reduce by rule 1
+	Minus	reduce by rule 1
+	Times	reduce by rule 1
+	Div	reduce by rule 1
+	Mod	reduce by rule 1
+	Greater	reduce by rule 1
+	Less	reduce by rule 1
+	GreaterEqual	reduce by rule 1
+	LessEqual	reduce by rule 1
+	NotEqual	reduce by rule 1
+	Append	reduce by rule 1
+	ListCons	reduce by rule 1
+	Comma	reduce by rule 1
+	Tilde	reduce by rule 1
+	Semicolon	reduce by rule 1
+	Equals	reduce by rule 1
+	VerticalBar	reduce by rule 1
+	LBracket	reduce by rule 1
+	RBracket	reduce by rule 1
+	Fun	reduce by rule 1
+	Let	reduce by rule 1
+	Val	reduce by rule 1
+	In	reduce by rule 1
+	End	reduce by rule 1
+	If	reduce by rule 1
+	Then	reduce by rule 1
+	Else	reduce by rule 1
+	Fn	reduce by rule 1
+	While	reduce by rule 1
+	Do	reduce by rule 1
+	Handle	reduce by rule 1
+	Raise	reduce by rule 1
+	And	reduce by rule 1
+	String	reduce by rule 1
+	Char	reduce by rule 1
+	Int	reduce by rule 1
+	True	reduce by rule 1
+	False	reduce by rule 1
+	Id	reduce by rule 1
+	Exclaim	reduce by rule 1
+
+
+	.	error
+
+
+state 3:
+
+	Prog : Exp . EOF 
+	Exp : Exp . Plus FuncExp 
+	Exp : Exp . Minus FuncExp 
+	Exp : Exp . Times FuncExp 
+	Exp : Exp . Div FuncExp 
+	Exp : Exp . Mod FuncExp 
+	Exp : Exp . Greater FuncExp 
+	Exp : Exp . GreaterEqual FuncExp 
+	Exp : Exp . Less FuncExp 
+	Exp : Exp . LessEqual FuncExp 
+	Exp : Exp . Equals FuncExp 
+	Exp : Exp . NotEqual FuncExp 
+	Exp : Exp . Append FuncExp 
+	Exp : Exp . ListCons FuncExp 
+	Exp : Exp . Handle MatchExp 
+	FuncExp : Exp .  (reduce by rule 32)
+
+	EOF	shift 34
+	LParen	reduce by rule 32
+	Plus	shift 33
+	Minus	shift 32
+	Times	shift 31
+	Div	shift 30
+	Mod	shift 29
+	Greater	shift 28
+	Less	shift 27
+	GreaterEqual	shift 26
+	LessEqual	shift 25
+	NotEqual	shift 24
+	Append	shift 23
+	ListCons	shift 22
+	Tilde	reduce by rule 32
+	Equals	shift 21
+	LBracket	reduce by rule 32
+	Let	reduce by rule 32
+	If	reduce by rule 32
+	Fn	reduce by rule 32
+	While	reduce by rule 32
+	Handle	shift 20
+	Raise	reduce by rule 32
+	String	reduce by rule 32
+	Char	reduce by rule 32
+	Int	reduce by rule 32
+	True	reduce by rule 32
+	False	reduce by rule 32
+	Id	reduce by rule 32
+	Exclaim	reduce by rule 32
+
+
+	.	error
+
+
+state 4:
+
+	Exp : Exclaim . Exp 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 35
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+
+state 5:
+
+	Exp : Id .  (reduce by rule 2)
+	Exp : Id . SetEqual FuncExp 
+
+	EOF	reduce by rule 2
+	LParen	reduce by rule 2
+	RParen	reduce by rule 2
+	Plus	reduce by rule 2
+	Minus	reduce by rule 2
+	Times	reduce by rule 2
+	Div	reduce by rule 2
+	Mod	reduce by rule 2
+	Greater	reduce by rule 2
+	Less	reduce by rule 2
+	GreaterEqual	reduce by rule 2
+	LessEqual	reduce by rule 2
+	NotEqual	reduce by rule 2
+	Append	reduce by rule 2
+	ListCons	reduce by rule 2
+	Comma	reduce by rule 2
+	Tilde	reduce by rule 2
+	Semicolon	reduce by rule 2
+	Equals	reduce by rule 2
+	VerticalBar	reduce by rule 2
+	LBracket	reduce by rule 2
+	RBracket	reduce by rule 2
+	Fun	reduce by rule 2
+	Let	reduce by rule 2
+	Val	reduce by rule 2
+	In	reduce by rule 2
+	End	reduce by rule 2
+	If	reduce by rule 2
+	Then	reduce by rule 2
+	Else	reduce by rule 2
+	Fn	reduce by rule 2
+	While	reduce by rule 2
+	Do	reduce by rule 2
+	Handle	reduce by rule 2
+	Raise	reduce by rule 2
+	And	reduce by rule 2
+	String	reduce by rule 2
+	Char	reduce by rule 2
+	Int	reduce by rule 2
+	True	reduce by rule 2
+	False	reduce by rule 2
+	Id	reduce by rule 2
+	SetEqual	shift 36
+	Exclaim	reduce by rule 2
+
+
+	.	error
+
+
+state 6:
+
+	Con : False .  (reduce by rule 74)
+
+	EOF	reduce by rule 74
+	LParen	reduce by rule 74
+	RParen	reduce by rule 74
+	Plus	reduce by rule 74
+	Minus	reduce by rule 74
+	Times	reduce by rule 74
+	Div	reduce by rule 74
+	Mod	reduce by rule 74
+	Greater	reduce by rule 74
+	Less	reduce by rule 74
+	GreaterEqual	reduce by rule 74
+	LessEqual	reduce by rule 74
+	NotEqual	reduce by rule 74
+	Append	reduce by rule 74
+	ListCons	reduce by rule 74
+	Comma	reduce by rule 74
+	Tilde	reduce by rule 74
+	Semicolon	reduce by rule 74
+	Equals	reduce by rule 74
+	VerticalBar	reduce by rule 74
+	LBracket	reduce by rule 74
+	RBracket	reduce by rule 74
+	Fun	reduce by rule 74
+	Let	reduce by rule 74
+	Val	reduce by rule 74
+	In	reduce by rule 74
+	End	reduce by rule 74
+	If	reduce by rule 74
+	Then	reduce by rule 74
+	Else	reduce by rule 74
+	Fn	reduce by rule 74
+	While	reduce by rule 74
+	Do	reduce by rule 74
+	Handle	reduce by rule 74
+	Raise	reduce by rule 74
+	And	reduce by rule 74
+	String	reduce by rule 74
+	Char	reduce by rule 74
+	Int	reduce by rule 74
+	True	reduce by rule 74
+	False	reduce by rule 74
+	Id	reduce by rule 74
+	Exclaim	reduce by rule 74
+
+
+	.	error
+
+
+state 7:
+
+	Con : True .  (reduce by rule 73)
+
+	EOF	reduce by rule 73
+	LParen	reduce by rule 73
+	RParen	reduce by rule 73
+	Plus	reduce by rule 73
+	Minus	reduce by rule 73
+	Times	reduce by rule 73
+	Div	reduce by rule 73
+	Mod	reduce by rule 73
+	Greater	reduce by rule 73
+	Less	reduce by rule 73
+	GreaterEqual	reduce by rule 73
+	LessEqual	reduce by rule 73
+	NotEqual	reduce by rule 73
+	Append	reduce by rule 73
+	ListCons	reduce by rule 73
+	Comma	reduce by rule 73
+	Tilde	reduce by rule 73
+	Semicolon	reduce by rule 73
+	Equals	reduce by rule 73
+	VerticalBar	reduce by rule 73
+	LBracket	reduce by rule 73
+	RBracket	reduce by rule 73
+	Fun	reduce by rule 73
+	Let	reduce by rule 73
+	Val	reduce by rule 73
+	In	reduce by rule 73
+	End	reduce by rule 73
+	If	reduce by rule 73
+	Then	reduce by rule 73
+	Else	reduce by rule 73
+	Fn	reduce by rule 73
+	While	reduce by rule 73
+	Do	reduce by rule 73
+	Handle	reduce by rule 73
+	Raise	reduce by rule 73
+	And	reduce by rule 73
+	String	reduce by rule 73
+	Char	reduce by rule 73
+	Int	reduce by rule 73
+	True	reduce by rule 73
+	False	reduce by rule 73
+	Id	reduce by rule 73
+	Exclaim	reduce by rule 73
+
+
+	.	error
+
+
+state 8:
+
+	Con : Int .  (reduce by rule 70)
+
+	EOF	reduce by rule 70
+	LParen	reduce by rule 70
+	RParen	reduce by rule 70
+	Plus	reduce by rule 70
+	Minus	reduce by rule 70
+	Times	reduce by rule 70
+	Div	reduce by rule 70
+	Mod	reduce by rule 70
+	Greater	reduce by rule 70
+	Less	reduce by rule 70
+	GreaterEqual	reduce by rule 70
+	LessEqual	reduce by rule 70
+	NotEqual	reduce by rule 70
+	Append	reduce by rule 70
+	ListCons	reduce by rule 70
+	Comma	reduce by rule 70
+	Tilde	reduce by rule 70
+	Semicolon	reduce by rule 70
+	Equals	reduce by rule 70
+	VerticalBar	reduce by rule 70
+	LBracket	reduce by rule 70
+	RBracket	reduce by rule 70
+	Fun	reduce by rule 70
+	Let	reduce by rule 70
+	Val	reduce by rule 70
+	In	reduce by rule 70
+	End	reduce by rule 70
+	If	reduce by rule 70
+	Then	reduce by rule 70
+	Else	reduce by rule 70
+	Fn	reduce by rule 70
+	While	reduce by rule 70
+	Do	reduce by rule 70
+	Handle	reduce by rule 70
+	Raise	reduce by rule 70
+	And	reduce by rule 70
+	String	reduce by rule 70
+	Char	reduce by rule 70
+	Int	reduce by rule 70
+	True	reduce by rule 70
+	False	reduce by rule 70
+	Id	reduce by rule 70
+	Exclaim	reduce by rule 70
+
+
+	.	error
+
+
+state 9:
+
+	Con : Char .  (reduce by rule 71)
+
+	EOF	reduce by rule 71
+	LParen	reduce by rule 71
+	RParen	reduce by rule 71
+	Plus	reduce by rule 71
+	Minus	reduce by rule 71
+	Times	reduce by rule 71
+	Div	reduce by rule 71
+	Mod	reduce by rule 71
+	Greater	reduce by rule 71
+	Less	reduce by rule 71
+	GreaterEqual	reduce by rule 71
+	LessEqual	reduce by rule 71
+	NotEqual	reduce by rule 71
+	Append	reduce by rule 71
+	ListCons	reduce by rule 71
+	Comma	reduce by rule 71
+	Tilde	reduce by rule 71
+	Semicolon	reduce by rule 71
+	Equals	reduce by rule 71
+	VerticalBar	reduce by rule 71
+	LBracket	reduce by rule 71
+	RBracket	reduce by rule 71
+	Fun	reduce by rule 71
+	Let	reduce by rule 71
+	Val	reduce by rule 71
+	In	reduce by rule 71
+	End	reduce by rule 71
+	If	reduce by rule 71
+	Then	reduce by rule 71
+	Else	reduce by rule 71
+	Fn	reduce by rule 71
+	While	reduce by rule 71
+	Do	reduce by rule 71
+	Handle	reduce by rule 71
+	Raise	reduce by rule 71
+	And	reduce by rule 71
+	String	reduce by rule 71
+	Char	reduce by rule 71
+	Int	reduce by rule 71
+	True	reduce by rule 71
+	False	reduce by rule 71
+	Id	reduce by rule 71
+	Exclaim	reduce by rule 71
+
+
+	.	error
+
+
+state 10:
+
+	Con : String .  (reduce by rule 72)
+
+	EOF	reduce by rule 72
+	LParen	reduce by rule 72
+	RParen	reduce by rule 72
+	Plus	reduce by rule 72
+	Minus	reduce by rule 72
+	Times	reduce by rule 72
+	Div	reduce by rule 72
+	Mod	reduce by rule 72
+	Greater	reduce by rule 72
+	Less	reduce by rule 72
+	GreaterEqual	reduce by rule 72
+	LessEqual	reduce by rule 72
+	NotEqual	reduce by rule 72
+	Append	reduce by rule 72
+	ListCons	reduce by rule 72
+	Comma	reduce by rule 72
+	Tilde	reduce by rule 72
+	Semicolon	reduce by rule 72
+	Equals	reduce by rule 72
+	VerticalBar	reduce by rule 72
+	LBracket	reduce by rule 72
+	RBracket	reduce by rule 72
+	Fun	reduce by rule 72
+	Let	reduce by rule 72
+	Val	reduce by rule 72
+	In	reduce by rule 72
+	End	reduce by rule 72
+	If	reduce by rule 72
+	Then	reduce by rule 72
+	Else	reduce by rule 72
+	Fn	reduce by rule 72
+	While	reduce by rule 72
+	Do	reduce by rule 72
+	Handle	reduce by rule 72
+	Raise	reduce by rule 72
+	And	reduce by rule 72
+	String	reduce by rule 72
+	Char	reduce by rule 72
+	Int	reduce by rule 72
+	True	reduce by rule 72
+	False	reduce by rule 72
+	Id	reduce by rule 72
+	Exclaim	reduce by rule 72
+
+
+	.	error
+
+
+state 11:
+
+	Exp : Raise . FuncExp 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 38
+	Con	goto 2
+	FuncExp	goto 37
+
+	.	error
+
+
+state 12:
+
+	Exp : While . Exp Do FuncExp 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 39
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+
+state 13:
+
+	Exp : Fn . MatchExp 
+
+	LParen	shift 50
+	Underscore	shift 49
+	LBracket	shift 48
+	String	shift 47
+	Char	shift 46
+	Int	shift 45
+	True	shift 44
+	False	shift 43
+	Id	shift 42
+
+	MatchExp	goto 41
+	Pat	goto 40
+
+	.	error
+
+
+state 14:
+
+	Exp : If . Exp Then Exp Else FuncExp 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 51
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+
+state 15:
+
+	Exp : Let . DecSeq In ExpSequence End 
+
+	Fun	shift 55
+	Val	shift 54
+
+	Dec	goto 53
+	DecSeq	goto 52
+
+	.	error
+
+
+state 16:
+
+	Exp : LBracket . Expressions RBracket 
+	Exp : LBracket . RBracket 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	RBracket	shift 58
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 57
+	Expressions	goto 56
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+
+state 17:
+
+	Exp : Tilde . Exp 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 59
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+
+state 18:
+
+	Exp : LParen . RParen 
+	Exp : LParen . Exp RParen 
+	Exp : LParen . Expressions RParen 
+	Exp : LParen . ExpSequence RParen 
+	Con : LParen . RParen 
+
+	LParen	shift 18
+	RParen	shift 63
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 62
+	Expressions	goto 61
+	ExpSequence	goto 60
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on Exclaim
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on Id
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on False
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on True
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on Int
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on Char
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on String
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on Raise
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on While
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on Fn
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on If
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on Let
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on LBracket
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on Tilde
+error:  state 19: reduce/reduce conflict between rule 32 and rule 3 on LParen
+error:  state 19: shift/reduce conflict (shift Handle, reduce by rule 3)
+error:  state 19: shift/reduce conflict (shift Equals, reduce by rule 3)
+error:  state 19: shift/reduce conflict (shift ListCons, reduce by rule 3)
+error:  state 19: shift/reduce conflict (shift Append, reduce by rule 3)
+error:  state 19: shift/reduce conflict (shift NotEqual, reduce by rule 3)
+error:  state 19: shift/reduce conflict (shift LessEqual, reduce by rule 3)
+error:  state 19: shift/reduce conflict (shift GreaterEqual, reduce by rule 3)
+error:  state 19: shift/reduce conflict (shift Less, reduce by rule 3)
+error:  state 19: shift/reduce conflict (shift Greater, reduce by rule 3)
+error:  state 19: shift/reduce conflict (shift Mod, reduce by rule 3)
+error:  state 19: shift/reduce conflict (shift Div, reduce by rule 3)
+error:  state 19: shift/reduce conflict (shift Times, reduce by rule 3)
+error:  state 19: shift/reduce conflict (shift Minus, reduce by rule 3)
+error:  state 19: shift/reduce conflict (shift Plus, reduce by rule 3)
+
+state 19:
+
+	Exp : FuncExp Exp .  (reduce by rule 3)
+	Exp : Exp . Plus FuncExp 
+	Exp : Exp . Minus FuncExp 
+	Exp : Exp . Times FuncExp 
+	Exp : Exp . Div FuncExp 
+	Exp : Exp . Mod FuncExp 
+	Exp : Exp . Greater FuncExp 
+	Exp : Exp . GreaterEqual FuncExp 
+	Exp : Exp . Less FuncExp 
+	Exp : Exp . LessEqual FuncExp 
+	Exp : Exp . Equals FuncExp 
+	Exp : Exp . NotEqual FuncExp 
+	Exp : Exp . Append FuncExp 
+	Exp : Exp . ListCons FuncExp 
+	Exp : Exp . Handle MatchExp 
+	FuncExp : Exp .  (reduce by rule 32)
+
+	EOF	reduce by rule 3
+	LParen	reduce by rule 3
+	RParen	reduce by rule 3
+	Plus	shift 33
+	Minus	shift 32
+	Times	shift 31
+	Div	shift 30
+	Mod	shift 29
+	Greater	shift 28
+	Less	shift 27
+	GreaterEqual	shift 26
+	LessEqual	shift 25
+	NotEqual	shift 24
+	Append	shift 23
+	ListCons	shift 22
+	Comma	reduce by rule 3
+	Tilde	reduce by rule 3
+	Semicolon	reduce by rule 3
+	Equals	shift 21
+	VerticalBar	reduce by rule 3
+	LBracket	reduce by rule 3
+	RBracket	reduce by rule 3
+	Fun	reduce by rule 3
+	Let	reduce by rule 3
+	Val	reduce by rule 3
+	In	reduce by rule 3
+	End	reduce by rule 3
+	If	reduce by rule 3
+	Then	reduce by rule 3
+	Else	reduce by rule 3
+	Fn	reduce by rule 3
+	While	reduce by rule 3
+	Do	reduce by rule 3
+	Handle	shift 20
+	Raise	reduce by rule 3
+	And	reduce by rule 3
+	String	reduce by rule 3
+	Char	reduce by rule 3
+	Int	reduce by rule 3
+	True	reduce by rule 3
+	False	reduce by rule 3
+	Id	reduce by rule 3
+	Exclaim	reduce by rule 3
+
+
+	.	error
+
+
+state 20:
+
+	Exp : Exp Handle . MatchExp 
+
+	LParen	shift 50
+	Underscore	shift 49
+	LBracket	shift 48
+	String	shift 47
+	Char	shift 46
+	Int	shift 45
+	True	shift 44
+	False	shift 43
+	Id	shift 42
+
+	MatchExp	goto 64
+	Pat	goto 40
+
+	.	error
+
+
+state 21:
+
+	Exp : Exp Equals . FuncExp 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 38
+	Con	goto 2
+	FuncExp	goto 65
+
+	.	error
+
+
+state 22:
+
+	Exp : Exp ListCons . FuncExp 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 38
+	Con	goto 2
+	FuncExp	goto 66
+
+	.	error
+
+
+state 23:
+
+	Exp : Exp Append . FuncExp 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 38
+	Con	goto 2
+	FuncExp	goto 67
+
+	.	error
+
+
+state 24:
+
+	Exp : Exp NotEqual . FuncExp 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 38
+	Con	goto 2
+	FuncExp	goto 68
+
+	.	error
+
+
+state 25:
+
+	Exp : Exp LessEqual . FuncExp 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 38
+	Con	goto 2
+	FuncExp	goto 69
+
+	.	error
+
+
+state 26:
+
+	Exp : Exp GreaterEqual . FuncExp 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 38
+	Con	goto 2
+	FuncExp	goto 70
+
+	.	error
+
+
+state 27:
+
+	Exp : Exp Less . FuncExp 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 38
+	Con	goto 2
+	FuncExp	goto 71
+
+	.	error
+
+
+state 28:
+
+	Exp : Exp Greater . FuncExp 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 38
+	Con	goto 2
+	FuncExp	goto 72
+
+	.	error
+
+
+state 29:
+
+	Exp : Exp Mod . FuncExp 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 38
+	Con	goto 2
+	FuncExp	goto 73
+
+	.	error
+
+
+state 30:
+
+	Exp : Exp Div . FuncExp 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 38
+	Con	goto 2
+	FuncExp	goto 74
+
+	.	error
+
+
+state 31:
+
+	Exp : Exp Times . FuncExp 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 38
+	Con	goto 2
+	FuncExp	goto 75
+
+	.	error
+
+
+state 32:
+
+	Exp : Exp Minus . FuncExp 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 38
+	Con	goto 2
+	FuncExp	goto 76
+
+	.	error
+
+
+state 33:
+
+	Exp : Exp Plus . FuncExp 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 38
+	Con	goto 2
+	FuncExp	goto 77
+
+	.	error
+
+
+state 34:
+
+	Prog : Exp EOF .  (reduce by rule 0)
+
+	EOF	reduce by rule 0
+
+
+	.	error
+
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on Exclaim
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on Id
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on False
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on True
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on Int
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on Char
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on String
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on Raise
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on While
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on Fn
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on If
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on Let
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on LBracket
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on Tilde
+error:  state 35: reduce/reduce conflict between rule 32 and rule 4 on LParen
+error:  state 35: shift/reduce conflict (shift Handle, reduce by rule 4)
+
+state 35:
+
+	Exp : Exclaim Exp .  (reduce by rule 4)
+	Exp : Exp . Plus FuncExp 
+	Exp : Exp . Minus FuncExp 
+	Exp : Exp . Times FuncExp 
+	Exp : Exp . Div FuncExp 
+	Exp : Exp . Mod FuncExp 
+	Exp : Exp . Greater FuncExp 
+	Exp : Exp . GreaterEqual FuncExp 
+	Exp : Exp . Less FuncExp 
+	Exp : Exp . LessEqual FuncExp 
+	Exp : Exp . Equals FuncExp 
+	Exp : Exp . NotEqual FuncExp 
+	Exp : Exp . Append FuncExp 
+	Exp : Exp . ListCons FuncExp 
+	Exp : Exp . Handle MatchExp 
+	FuncExp : Exp .  (reduce by rule 32)
+
+	EOF	reduce by rule 4
+	LParen	reduce by rule 4
+	RParen	reduce by rule 4
+	Plus	reduce by rule 4
+	Minus	reduce by rule 4
+	Times	reduce by rule 4
+	Div	reduce by rule 4
+	Mod	reduce by rule 4
+	Greater	reduce by rule 4
+	Less	reduce by rule 4
+	GreaterEqual	reduce by rule 4
+	LessEqual	reduce by rule 4
+	NotEqual	reduce by rule 4
+	Append	reduce by rule 4
+	ListCons	reduce by rule 4
+	Comma	reduce by rule 4
+	Tilde	reduce by rule 4
+	Semicolon	reduce by rule 4
+	Equals	reduce by rule 4
+	VerticalBar	reduce by rule 4
+	LBracket	reduce by rule 4
+	RBracket	reduce by rule 4
+	Fun	reduce by rule 4
+	Let	reduce by rule 4
+	Val	reduce by rule 4
+	In	reduce by rule 4
+	End	reduce by rule 4
+	If	reduce by rule 4
+	Then	reduce by rule 4
+	Else	reduce by rule 4
+	Fn	reduce by rule 4
+	While	reduce by rule 4
+	Do	reduce by rule 4
+	Handle	shift 20
+	Raise	reduce by rule 4
+	And	reduce by rule 4
+	String	reduce by rule 4
+	Char	reduce by rule 4
+	Int	reduce by rule 4
+	True	reduce by rule 4
+	False	reduce by rule 4
+	Id	reduce by rule 4
+	Exclaim	reduce by rule 4
+
+
+	.	error
+
+
+state 36:
+
+	Exp : Id SetEqual . FuncExp 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 38
+	Con	goto 2
+	FuncExp	goto 78
+
+	.	error
+
+error:  state 37: shift/reduce conflict (shift Exclaim, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift Id, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift False, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift True, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift Int, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift Char, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift String, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift Raise, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift While, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift Fn, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift If, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift Let, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift LBracket, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift Tilde, reduce by rule 27)
+error:  state 37: shift/reduce conflict (shift LParen, reduce by rule 27)
+
+state 37:
+
+	Exp : FuncExp . Exp 
+	Exp : Raise FuncExp .  (reduce by rule 27)
+
+	EOF	reduce by rule 27
+	LParen	shift 18
+	RParen	reduce by rule 27
+	Plus	reduce by rule 27
+	Minus	reduce by rule 27
+	Times	reduce by rule 27
+	Div	reduce by rule 27
+	Mod	reduce by rule 27
+	Greater	reduce by rule 27
+	Less	reduce by rule 27
+	GreaterEqual	reduce by rule 27
+	LessEqual	reduce by rule 27
+	NotEqual	reduce by rule 27
+	Append	reduce by rule 27
+	ListCons	reduce by rule 27
+	Comma	reduce by rule 27
+	Tilde	shift 17
+	Semicolon	reduce by rule 27
+	Equals	reduce by rule 27
+	VerticalBar	reduce by rule 27
+	LBracket	shift 16
+	RBracket	reduce by rule 27
+	Fun	reduce by rule 27
+	Let	shift 15
+	Val	reduce by rule 27
+	In	reduce by rule 27
+	End	reduce by rule 27
+	If	shift 14
+	Then	reduce by rule 27
+	Else	reduce by rule 27
+	Fn	shift 13
+	While	shift 12
+	Do	reduce by rule 27
+	Handle	reduce by rule 27
+	Raise	shift 11
+	And	reduce by rule 27
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 19
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+error:  state 38: shift/reduce conflict (shift Handle, reduce by rule 32)
+error:  state 38: shift/reduce conflict (shift Equals, reduce by rule 32)
+error:  state 38: shift/reduce conflict (shift ListCons, reduce by rule 32)
+error:  state 38: shift/reduce conflict (shift Append, reduce by rule 32)
+error:  state 38: shift/reduce conflict (shift NotEqual, reduce by rule 32)
+error:  state 38: shift/reduce conflict (shift LessEqual, reduce by rule 32)
+error:  state 38: shift/reduce conflict (shift GreaterEqual, reduce by rule 32)
+error:  state 38: shift/reduce conflict (shift Less, reduce by rule 32)
+error:  state 38: shift/reduce conflict (shift Greater, reduce by rule 32)
+error:  state 38: shift/reduce conflict (shift Mod, reduce by rule 32)
+error:  state 38: shift/reduce conflict (shift Div, reduce by rule 32)
+error:  state 38: shift/reduce conflict (shift Times, reduce by rule 32)
+error:  state 38: shift/reduce conflict (shift Minus, reduce by rule 32)
+error:  state 38: shift/reduce conflict (shift Plus, reduce by rule 32)
+
+state 38:
+
+	Exp : Exp . Plus FuncExp 
+	Exp : Exp . Minus FuncExp 
+	Exp : Exp . Times FuncExp 
+	Exp : Exp . Div FuncExp 
+	Exp : Exp . Mod FuncExp 
+	Exp : Exp . Greater FuncExp 
+	Exp : Exp . GreaterEqual FuncExp 
+	Exp : Exp . Less FuncExp 
+	Exp : Exp . LessEqual FuncExp 
+	Exp : Exp . Equals FuncExp 
+	Exp : Exp . NotEqual FuncExp 
+	Exp : Exp . Append FuncExp 
+	Exp : Exp . ListCons FuncExp 
+	Exp : Exp . Handle MatchExp 
+	FuncExp : Exp .  (reduce by rule 32)
+
+	EOF	reduce by rule 32
+	LParen	reduce by rule 32
+	RParen	reduce by rule 32
+	Plus	shift 33
+	Minus	shift 32
+	Times	shift 31
+	Div	shift 30
+	Mod	shift 29
+	Greater	shift 28
+	Less	shift 27
+	GreaterEqual	shift 26
+	LessEqual	shift 25
+	NotEqual	shift 24
+	Append	shift 23
+	ListCons	shift 22
+	Comma	reduce by rule 32
+	Tilde	reduce by rule 32
+	Semicolon	reduce by rule 32
+	Equals	shift 21
+	VerticalBar	reduce by rule 32
+	LBracket	reduce by rule 32
+	RBracket	reduce by rule 32
+	Fun	reduce by rule 32
+	Let	reduce by rule 32
+	Val	reduce by rule 32
+	In	reduce by rule 32
+	End	reduce by rule 32
+	If	reduce by rule 32
+	Then	reduce by rule 32
+	Else	reduce by rule 32
+	Fn	reduce by rule 32
+	While	reduce by rule 32
+	Do	reduce by rule 32
+	Handle	shift 20
+	Raise	reduce by rule 32
+	And	reduce by rule 32
+	String	reduce by rule 32
+	Char	reduce by rule 32
+	Int	reduce by rule 32
+	True	reduce by rule 32
+	False	reduce by rule 32
+	Id	reduce by rule 32
+	Exclaim	reduce by rule 32
+
+
+	.	error
+
+
+state 39:
+
+	Exp : Exp . Plus FuncExp 
+	Exp : Exp . Minus FuncExp 
+	Exp : Exp . Times FuncExp 
+	Exp : Exp . Div FuncExp 
+	Exp : Exp . Mod FuncExp 
+	Exp : Exp . Greater FuncExp 
+	Exp : Exp . GreaterEqual FuncExp 
+	Exp : Exp . Less FuncExp 
+	Exp : Exp . LessEqual FuncExp 
+	Exp : Exp . Equals FuncExp 
+	Exp : Exp . NotEqual FuncExp 
+	Exp : Exp . Append FuncExp 
+	Exp : Exp . ListCons FuncExp 
+	Exp : Exp . Handle MatchExp 
+	Exp : While Exp . Do FuncExp 
+	FuncExp : Exp .  (reduce by rule 32)
+
+	LParen	reduce by rule 32
+	Plus	shift 33
+	Minus	shift 32
+	Times	shift 31
+	Div	shift 30
+	Mod	shift 29
+	Greater	shift 28
+	Less	shift 27
+	GreaterEqual	shift 26
+	LessEqual	shift 25
+	NotEqual	shift 24
+	Append	shift 23
+	ListCons	shift 22
+	Tilde	reduce by rule 32
+	Equals	shift 21
+	LBracket	reduce by rule 32
+	Let	reduce by rule 32
+	If	reduce by rule 32
+	Fn	reduce by rule 32
+	While	reduce by rule 32
+	Do	shift 79
+	Handle	shift 20
+	Raise	reduce by rule 32
+	String	reduce by rule 32
+	Char	reduce by rule 32
+	Int	reduce by rule 32
+	True	reduce by rule 32
+	False	reduce by rule 32
+	Id	reduce by rule 32
+	Exclaim	reduce by rule 32
+
+
+	.	error
+
+
+state 40:
+
+	MatchExp : Pat . Arrow Exp 
+	MatchExp : Pat . Arrow Exp VerticalBar MatchExp 
+	Pat : Pat . ListCons Pat 
+
+	ListCons	shift 81
+	Arrow	shift 80
+
+
+	.	error
+
+
+state 41:
+
+	Exp : Fn MatchExp .  (reduce by rule 31)
+
+	EOF	reduce by rule 31
+	LParen	reduce by rule 31
+	RParen	reduce by rule 31
+	Plus	reduce by rule 31
+	Minus	reduce by rule 31
+	Times	reduce by rule 31
+	Div	reduce by rule 31
+	Mod	reduce by rule 31
+	Greater	reduce by rule 31
+	Less	reduce by rule 31
+	GreaterEqual	reduce by rule 31
+	LessEqual	reduce by rule 31
+	NotEqual	reduce by rule 31
+	Append	reduce by rule 31
+	ListCons	reduce by rule 31
+	Comma	reduce by rule 31
+	Tilde	reduce by rule 31
+	Semicolon	reduce by rule 31
+	Equals	reduce by rule 31
+	VerticalBar	reduce by rule 31
+	LBracket	reduce by rule 31
+	RBracket	reduce by rule 31
+	Fun	reduce by rule 31
+	Let	reduce by rule 31
+	Val	reduce by rule 31
+	In	reduce by rule 31
+	End	reduce by rule 31
+	If	reduce by rule 31
+	Then	reduce by rule 31
+	Else	reduce by rule 31
+	Fn	reduce by rule 31
+	While	reduce by rule 31
+	Do	reduce by rule 31
+	Handle	reduce by rule 31
+	Raise	reduce by rule 31
+	And	reduce by rule 31
+	String	reduce by rule 31
+	Char	reduce by rule 31
+	Int	reduce by rule 31
+	True	reduce by rule 31
+	False	reduce by rule 31
+	Id	reduce by rule 31
+	Exclaim	reduce by rule 31
+
+
+	.	error
+
+
+state 42:
+
+	Pat : Id .  (reduce by rule 45)
+	Pat : Id . As Pat 
+
+	LParen	reduce by rule 45
+	RParen	reduce by rule 45
+	ListCons	reduce by rule 45
+	Comma	reduce by rule 45
+	Underscore	reduce by rule 45
+	Arrow	reduce by rule 45
+	Equals	reduce by rule 45
+	LBracket	reduce by rule 45
+	RBracket	reduce by rule 45
+	As	shift 82
+	String	reduce by rule 45
+	Char	reduce by rule 45
+	Int	reduce by rule 45
+	True	reduce by rule 45
+	False	reduce by rule 45
+	Id	reduce by rule 45
+
+
+	.	error
+
+
+state 43:
+
+	Pat : False .  (reduce by rule 43)
+
+	LParen	reduce by rule 43
+	RParen	reduce by rule 43
+	ListCons	reduce by rule 43
+	Comma	reduce by rule 43
+	Underscore	reduce by rule 43
+	Arrow	reduce by rule 43
+	Equals	reduce by rule 43
+	LBracket	reduce by rule 43
+	RBracket	reduce by rule 43
+	String	reduce by rule 43
+	Char	reduce by rule 43
+	Int	reduce by rule 43
+	True	reduce by rule 43
+	False	reduce by rule 43
+	Id	reduce by rule 43
+
+
+	.	error
+
+
+state 44:
+
+	Pat : True .  (reduce by rule 42)
+
+	LParen	reduce by rule 42
+	RParen	reduce by rule 42
+	ListCons	reduce by rule 42
+	Comma	reduce by rule 42
+	Underscore	reduce by rule 42
+	Arrow	reduce by rule 42
+	Equals	reduce by rule 42
+	LBracket	reduce by rule 42
+	RBracket	reduce by rule 42
+	String	reduce by rule 42
+	Char	reduce by rule 42
+	Int	reduce by rule 42
+	True	reduce by rule 42
+	False	reduce by rule 42
+	Id	reduce by rule 42
+
+
+	.	error
+
+
+state 45:
+
+	Pat : Int .  (reduce by rule 39)
+
+	LParen	reduce by rule 39
+	RParen	reduce by rule 39
+	ListCons	reduce by rule 39
+	Comma	reduce by rule 39
+	Underscore	reduce by rule 39
+	Arrow	reduce by rule 39
+	Equals	reduce by rule 39
+	LBracket	reduce by rule 39
+	RBracket	reduce by rule 39
+	String	reduce by rule 39
+	Char	reduce by rule 39
+	Int	reduce by rule 39
+	True	reduce by rule 39
+	False	reduce by rule 39
+	Id	reduce by rule 39
+
+
+	.	error
+
+
+state 46:
+
+	Pat : Char .  (reduce by rule 40)
+
+	LParen	reduce by rule 40
+	RParen	reduce by rule 40
+	ListCons	reduce by rule 40
+	Comma	reduce by rule 40
+	Underscore	reduce by rule 40
+	Arrow	reduce by rule 40
+	Equals	reduce by rule 40
+	LBracket	reduce by rule 40
+	RBracket	reduce by rule 40
+	String	reduce by rule 40
+	Char	reduce by rule 40
+	Int	reduce by rule 40
+	True	reduce by rule 40
+	False	reduce by rule 40
+	Id	reduce by rule 40
+
+
+	.	error
+
+
+state 47:
+
+	Pat : String .  (reduce by rule 41)
+
+	LParen	reduce by rule 41
+	RParen	reduce by rule 41
+	ListCons	reduce by rule 41
+	Comma	reduce by rule 41
+	Underscore	reduce by rule 41
+	Arrow	reduce by rule 41
+	Equals	reduce by rule 41
+	LBracket	reduce by rule 41
+	RBracket	reduce by rule 41
+	String	reduce by rule 41
+	Char	reduce by rule 41
+	Int	reduce by rule 41
+	True	reduce by rule 41
+	False	reduce by rule 41
+	Id	reduce by rule 41
+
+
+	.	error
+
+
+state 48:
+
+	Pat : LBracket . Patterns RBracket 
+	Pat : LBracket . RBracket 
+
+	LParen	shift 50
+	Underscore	shift 49
+	LBracket	shift 48
+	RBracket	shift 85
+	String	shift 47
+	Char	shift 46
+	Int	shift 45
+	True	shift 44
+	False	shift 43
+	Id	shift 42
+
+	Pat	goto 84
+	Patterns	goto 83
+
+	.	error
+
+
+state 49:
+
+	Pat : Underscore .  (reduce by rule 44)
+
+	LParen	reduce by rule 44
+	RParen	reduce by rule 44
+	ListCons	reduce by rule 44
+	Comma	reduce by rule 44
+	Underscore	reduce by rule 44
+	Arrow	reduce by rule 44
+	Equals	reduce by rule 44
+	LBracket	reduce by rule 44
+	RBracket	reduce by rule 44
+	String	reduce by rule 44
+	Char	reduce by rule 44
+	Int	reduce by rule 44
+	True	reduce by rule 44
+	False	reduce by rule 44
+	Id	reduce by rule 44
+
+
+	.	error
+
+
+state 50:
+
+	Pat : LParen . RParen 
+	Pat : LParen . Pat RParen 
+	Pat : LParen . Patterns RParen 
+
+	LParen	shift 50
+	RParen	shift 88
+	Underscore	shift 49
+	LBracket	shift 48
+	String	shift 47
+	Char	shift 46
+	Int	shift 45
+	True	shift 44
+	False	shift 43
+	Id	shift 42
+
+	Pat	goto 87
+	Patterns	goto 86
+
+	.	error
+
+
+state 51:
+
+	Exp : Exp . Plus FuncExp 
+	Exp : Exp . Minus FuncExp 
+	Exp : Exp . Times FuncExp 
+	Exp : Exp . Div FuncExp 
+	Exp : Exp . Mod FuncExp 
+	Exp : Exp . Greater FuncExp 
+	Exp : Exp . GreaterEqual FuncExp 
+	Exp : Exp . Less FuncExp 
+	Exp : Exp . LessEqual FuncExp 
+	Exp : Exp . Equals FuncExp 
+	Exp : Exp . NotEqual FuncExp 
+	Exp : Exp . Append FuncExp 
+	Exp : Exp . ListCons FuncExp 
+	Exp : Exp . Handle MatchExp 
+	Exp : If Exp . Then Exp Else FuncExp 
+	FuncExp : Exp .  (reduce by rule 32)
+
+	LParen	reduce by rule 32
+	Plus	shift 33
+	Minus	shift 32
+	Times	shift 31
+	Div	shift 30
+	Mod	shift 29
+	Greater	shift 28
+	Less	shift 27
+	GreaterEqual	shift 26
+	LessEqual	shift 25
+	NotEqual	shift 24
+	Append	shift 23
+	ListCons	shift 22
+	Tilde	reduce by rule 32
+	Equals	shift 21
+	LBracket	reduce by rule 32
+	Let	reduce by rule 32
+	If	reduce by rule 32
+	Then	shift 89
+	Fn	reduce by rule 32
+	While	reduce by rule 32
+	Handle	shift 20
+	Raise	reduce by rule 32
+	String	reduce by rule 32
+	Char	reduce by rule 32
+	Int	reduce by rule 32
+	True	reduce by rule 32
+	False	reduce by rule 32
+	Id	reduce by rule 32
+	Exclaim	reduce by rule 32
+
+
+	.	error
+
+
+state 52:
+
+	Exp : Let DecSeq . In ExpSequence End 
+
+	In	shift 90
+
+
+	.	error
+
+
+state 53:
+
+	DecSeq : Dec .  (reduce by rule 59)
+	DecSeq : Dec . DecSeq 
+
+	Fun	shift 55
+	Val	shift 54
+	In	reduce by rule 59
+
+	Dec	goto 53
+	DecSeq	goto 91
+
+	.	error
+
+
+state 54:
+
+	Dec : Val . ValBind 
+
+	LParen	shift 50
+	Underscore	shift 49
+	LBracket	shift 48
+	Rec	shift 94
+	String	shift 47
+	Char	shift 46
+	Int	shift 45
+	True	shift 44
+	False	shift 43
+	Id	shift 42
+
+	Pat	goto 93
+	ValBind	goto 92
+
+	.	error
+
+
+state 55:
+
+	Dec : Fun . FunBind 
+
+	Id	shift 98
+
+	FunBind	goto 97
+	FunMatch	goto 96
+	CurriedFun	goto 95
+
+	.	error
+
+
+state 56:
+
+	Exp : LBracket Expressions . RBracket 
+
+	RBracket	shift 99
+
+
+	.	error
+
+
+state 57:
+
+	Exp : Exp . Plus FuncExp 
+	Exp : Exp . Minus FuncExp 
+	Exp : Exp . Times FuncExp 
+	Exp : Exp . Div FuncExp 
+	Exp : Exp . Mod FuncExp 
+	Exp : Exp . Greater FuncExp 
+	Exp : Exp . GreaterEqual FuncExp 
+	Exp : Exp . Less FuncExp 
+	Exp : Exp . LessEqual FuncExp 
+	Exp : Exp . Equals FuncExp 
+	Exp : Exp . NotEqual FuncExp 
+	Exp : Exp . Append FuncExp 
+	Exp : Exp . ListCons FuncExp 
+	Exp : Exp . Handle MatchExp 
+	Expressions : Exp .  (reduce by rule 33)
+	Expressions : Exp . Comma Expressions 
+	FuncExp : Exp .  (reduce by rule 32)
+
+	LParen	reduce by rule 32
+	RParen	reduce by rule 33
+	Plus	shift 33
+	Minus	shift 32
+	Times	shift 31
+	Div	shift 30
+	Mod	shift 29
+	Greater	shift 28
+	Less	shift 27
+	GreaterEqual	shift 26
+	LessEqual	shift 25
+	NotEqual	shift 24
+	Append	shift 23
+	ListCons	shift 22
+	Comma	shift 100
+	Tilde	reduce by rule 32
+	Equals	shift 21
+	LBracket	reduce by rule 32
+	RBracket	reduce by rule 33
+	Let	reduce by rule 32
+	If	reduce by rule 32
+	Fn	reduce by rule 32
+	While	reduce by rule 32
+	Handle	shift 20
+	Raise	reduce by rule 32
+	String	reduce by rule 32
+	Char	reduce by rule 32
+	Int	reduce by rule 32
+	True	reduce by rule 32
+	False	reduce by rule 32
+	Id	reduce by rule 32
+	Exclaim	reduce by rule 32
+
+
+	.	error
+
+
+state 58:
+
+	Exp : LBracket RBracket .  (reduce by rule 25)
+
+	EOF	reduce by rule 25
+	LParen	reduce by rule 25
+	RParen	reduce by rule 25
+	Plus	reduce by rule 25
+	Minus	reduce by rule 25
+	Times	reduce by rule 25
+	Div	reduce by rule 25
+	Mod	reduce by rule 25
+	Greater	reduce by rule 25
+	Less	reduce by rule 25
+	GreaterEqual	reduce by rule 25
+	LessEqual	reduce by rule 25
+	NotEqual	reduce by rule 25
+	Append	reduce by rule 25
+	ListCons	reduce by rule 25
+	Comma	reduce by rule 25
+	Tilde	reduce by rule 25
+	Semicolon	reduce by rule 25
+	Equals	reduce by rule 25
+	VerticalBar	reduce by rule 25
+	LBracket	reduce by rule 25
+	RBracket	reduce by rule 25
+	Fun	reduce by rule 25
+	Let	reduce by rule 25
+	Val	reduce by rule 25
+	In	reduce by rule 25
+	End	reduce by rule 25
+	If	reduce by rule 25
+	Then	reduce by rule 25
+	Else	reduce by rule 25
+	Fn	reduce by rule 25
+	While	reduce by rule 25
+	Do	reduce by rule 25
+	Handle	reduce by rule 25
+	Raise	reduce by rule 25
+	And	reduce by rule 25
+	String	reduce by rule 25
+	Char	reduce by rule 25
+	Int	reduce by rule 25
+	True	reduce by rule 25
+	False	reduce by rule 25
+	Id	reduce by rule 25
+	Exclaim	reduce by rule 25
+
+
+	.	error
+
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on Exclaim
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on Id
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on False
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on True
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on Int
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on Char
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on String
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on Raise
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on While
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on Fn
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on If
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on Let
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on LBracket
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on Tilde
+error:  state 59: reduce/reduce conflict between rule 32 and rule 18 on LParen
+error:  state 59: shift/reduce conflict (shift Handle, reduce by rule 18)
+
+state 59:
+
+	Exp : Exp . Plus FuncExp 
+	Exp : Exp . Minus FuncExp 
+	Exp : Exp . Times FuncExp 
+	Exp : Exp . Div FuncExp 
+	Exp : Exp . Mod FuncExp 
+	Exp : Exp . Greater FuncExp 
+	Exp : Exp . GreaterEqual FuncExp 
+	Exp : Exp . Less FuncExp 
+	Exp : Exp . LessEqual FuncExp 
+	Exp : Exp . Equals FuncExp 
+	Exp : Exp . NotEqual FuncExp 
+	Exp : Exp . Append FuncExp 
+	Exp : Tilde Exp .  (reduce by rule 18)
+	Exp : Exp . ListCons FuncExp 
+	Exp : Exp . Handle MatchExp 
+	FuncExp : Exp .  (reduce by rule 32)
+
+	EOF	reduce by rule 18
+	LParen	reduce by rule 18
+	RParen	reduce by rule 18
+	Plus	reduce by rule 18
+	Minus	reduce by rule 18
+	Times	reduce by rule 18
+	Div	reduce by rule 18
+	Mod	reduce by rule 18
+	Greater	reduce by rule 18
+	Less	reduce by rule 18
+	GreaterEqual	reduce by rule 18
+	LessEqual	reduce by rule 18
+	NotEqual	reduce by rule 18
+	Append	reduce by rule 18
+	ListCons	reduce by rule 18
+	Comma	reduce by rule 18
+	Tilde	reduce by rule 18
+	Semicolon	reduce by rule 18
+	Equals	reduce by rule 18
+	VerticalBar	reduce by rule 18
+	LBracket	reduce by rule 18
+	RBracket	reduce by rule 18
+	Fun	reduce by rule 18
+	Let	reduce by rule 18
+	Val	reduce by rule 18
+	In	reduce by rule 18
+	End	reduce by rule 18
+	If	reduce by rule 18
+	Then	reduce by rule 18
+	Else	reduce by rule 18
+	Fn	reduce by rule 18
+	While	reduce by rule 18
+	Do	reduce by rule 18
+	Handle	shift 20
+	Raise	reduce by rule 18
+	And	reduce by rule 18
+	String	reduce by rule 18
+	Char	reduce by rule 18
+	Int	reduce by rule 18
+	True	reduce by rule 18
+	False	reduce by rule 18
+	Id	reduce by rule 18
+	Exclaim	reduce by rule 18
+
+
+	.	error
+
+
+state 60:
+
+	Exp : LParen ExpSequence . RParen 
+
+	RParen	shift 101
+
+
+	.	error
+
+
+state 61:
+
+	Exp : LParen Expressions . RParen 
+
+	RParen	shift 102
+
+
+	.	error
+
+error:  state 62: reduce/reduce conflict between rule 35 and rule 33 on RParen
+error:  state 62: shift/reduce conflict (shift RParen, reduce by rule 33)
+
+state 62:
+
+	Exp : Exp . Plus FuncExp 
+	Exp : Exp . Minus FuncExp 
+	Exp : Exp . Times FuncExp 
+	Exp : Exp . Div FuncExp 
+	Exp : Exp . Mod FuncExp 
+	Exp : Exp . Greater FuncExp 
+	Exp : Exp . GreaterEqual FuncExp 
+	Exp : Exp . Less FuncExp 
+	Exp : Exp . LessEqual FuncExp 
+	Exp : Exp . Equals FuncExp 
+	Exp : Exp . NotEqual FuncExp 
+	Exp : Exp . Append FuncExp 
+	Exp : Exp . ListCons FuncExp 
+	Exp : LParen Exp . RParen 
+	Exp : Exp . Handle MatchExp 
+	Expressions : Exp .  (reduce by rule 33)
+	Expressions : Exp . Comma Expressions 
+	ExpSequence : Exp .  (reduce by rule 35)
+	ExpSequence : Exp . Semicolon ExpSequence 
+	FuncExp : Exp .  (reduce by rule 32)
+
+	LParen	reduce by rule 32
+	RParen	shift 104
+	Plus	shift 33
+	Minus	shift 32
+	Times	shift 31
+	Div	shift 30
+	Mod	shift 29
+	Greater	shift 28
+	Less	shift 27
+	GreaterEqual	shift 26
+	LessEqual	shift 25
+	NotEqual	shift 24
+	Append	shift 23
+	ListCons	shift 22
+	Comma	shift 100
+	Tilde	reduce by rule 32
+	Semicolon	shift 103
+	Equals	shift 21
+	LBracket	reduce by rule 32
+	Let	reduce by rule 32
+	If	reduce by rule 32
+	Fn	reduce by rule 32
+	While	reduce by rule 32
+	Handle	shift 20
+	Raise	reduce by rule 32
+	String	reduce by rule 32
+	Char	reduce by rule 32
+	Int	reduce by rule 32
+	True	reduce by rule 32
+	False	reduce by rule 32
+	Id	reduce by rule 32
+	Exclaim	reduce by rule 32
+
+
+	.	error
+
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Exclaim
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Id
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on False
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on True
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Int
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Char
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on String
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on And
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Raise
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Handle
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Do
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on While
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Fn
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Else
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Then
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on If
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on End
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on In
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Val
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Let
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Fun
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on RBracket
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on LBracket
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on VerticalBar
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Equals
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Semicolon
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Tilde
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Comma
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on ListCons
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Append
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on NotEqual
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on LessEqual
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on GreaterEqual
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Less
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Greater
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Mod
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Div
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Times
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Minus
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on Plus
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on RParen
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on LParen
+error:  state 63: reduce/reduce conflict between rule 75 and rule 20 on EOF
+
+state 63:
+
+	Exp : LParen RParen .  (reduce by rule 20)
+	Con : LParen RParen .  (reduce by rule 75)
+
+	EOF	reduce by rule 20
+	LParen	reduce by rule 20
+	RParen	reduce by rule 20
+	Plus	reduce by rule 20
+	Minus	reduce by rule 20
+	Times	reduce by rule 20
+	Div	reduce by rule 20
+	Mod	reduce by rule 20
+	Greater	reduce by rule 20
+	Less	reduce by rule 20
+	GreaterEqual	reduce by rule 20
+	LessEqual	reduce by rule 20
+	NotEqual	reduce by rule 20
+	Append	reduce by rule 20
+	ListCons	reduce by rule 20
+	Comma	reduce by rule 20
+	Tilde	reduce by rule 20
+	Semicolon	reduce by rule 20
+	Equals	reduce by rule 20
+	VerticalBar	reduce by rule 20
+	LBracket	reduce by rule 20
+	RBracket	reduce by rule 20
+	Fun	reduce by rule 20
+	Let	reduce by rule 20
+	Val	reduce by rule 20
+	In	reduce by rule 20
+	End	reduce by rule 20
+	If	reduce by rule 20
+	Then	reduce by rule 20
+	Else	reduce by rule 20
+	Fn	reduce by rule 20
+	While	reduce by rule 20
+	Do	reduce by rule 20
+	Handle	reduce by rule 20
+	Raise	reduce by rule 20
+	And	reduce by rule 20
+	String	reduce by rule 20
+	Char	reduce by rule 20
+	Int	reduce by rule 20
+	True	reduce by rule 20
+	False	reduce by rule 20
+	Id	reduce by rule 20
+	Exclaim	reduce by rule 20
+
+
+	.	error
+
+
+state 64:
+
+	Exp : Exp Handle MatchExp .  (reduce by rule 28)
+
+	EOF	reduce by rule 28
+	LParen	reduce by rule 28
+	RParen	reduce by rule 28
+	Plus	reduce by rule 28
+	Minus	reduce by rule 28
+	Times	reduce by rule 28
+	Div	reduce by rule 28
+	Mod	reduce by rule 28
+	Greater	reduce by rule 28
+	Less	reduce by rule 28
+	GreaterEqual	reduce by rule 28
+	LessEqual	reduce by rule 28
+	NotEqual	reduce by rule 28
+	Append	reduce by rule 28
+	ListCons	reduce by rule 28
+	Comma	reduce by rule 28
+	Tilde	reduce by rule 28
+	Semicolon	reduce by rule 28
+	Equals	reduce by rule 28
+	VerticalBar	reduce by rule 28
+	LBracket	reduce by rule 28
+	RBracket	reduce by rule 28
+	Fun	reduce by rule 28
+	Let	reduce by rule 28
+	Val	reduce by rule 28
+	In	reduce by rule 28
+	End	reduce by rule 28
+	If	reduce by rule 28
+	Then	reduce by rule 28
+	Else	reduce by rule 28
+	Fn	reduce by rule 28
+	While	reduce by rule 28
+	Do	reduce by rule 28
+	Handle	reduce by rule 28
+	Raise	reduce by rule 28
+	And	reduce by rule 28
+	String	reduce by rule 28
+	Char	reduce by rule 28
+	Int	reduce by rule 28
+	True	reduce by rule 28
+	False	reduce by rule 28
+	Id	reduce by rule 28
+	Exclaim	reduce by rule 28
+
+
+	.	error
+
+error:  state 65: shift/reduce conflict (shift Id, reduce by rule 15)
+error:  state 65: shift/reduce conflict (shift False, reduce by rule 15)
+error:  state 65: shift/reduce conflict (shift True, reduce by rule 15)
+error:  state 65: shift/reduce conflict (shift Int, reduce by rule 15)
+error:  state 65: shift/reduce conflict (shift Char, reduce by rule 15)
+error:  state 65: shift/reduce conflict (shift String, reduce by rule 15)
+error:  state 65: shift/reduce conflict (shift Raise, reduce by rule 15)
+error:  state 65: shift/reduce conflict (shift While, reduce by rule 15)
+error:  state 65: shift/reduce conflict (shift Fn, reduce by rule 15)
+error:  state 65: shift/reduce conflict (shift If, reduce by rule 15)
+error:  state 65: shift/reduce conflict (shift Let, reduce by rule 15)
+error:  state 65: shift/reduce conflict (shift LBracket, reduce by rule 15)
+error:  state 65: shift/reduce conflict (shift LParen, reduce by rule 15)
+
+state 65:
+
+	Exp : FuncExp . Exp 
+	Exp : Exp Equals FuncExp .  (reduce by rule 15)
+
+	EOF	reduce by rule 15
+	LParen	shift 18
+	RParen	reduce by rule 15
+	Plus	reduce by rule 15
+	Minus	reduce by rule 15
+	Times	reduce by rule 15
+	Div	reduce by rule 15
+	Mod	reduce by rule 15
+	Greater	reduce by rule 15
+	Less	reduce by rule 15
+	GreaterEqual	reduce by rule 15
+	LessEqual	reduce by rule 15
+	NotEqual	reduce by rule 15
+	Append	reduce by rule 15
+	ListCons	reduce by rule 15
+	Comma	reduce by rule 15
+	Tilde	shift 17
+	Semicolon	reduce by rule 15
+	Equals	reduce by rule 15
+	VerticalBar	reduce by rule 15
+	LBracket	shift 16
+	RBracket	reduce by rule 15
+	Fun	reduce by rule 15
+	Let	shift 15
+	Val	reduce by rule 15
+	In	reduce by rule 15
+	End	reduce by rule 15
+	If	shift 14
+	Then	reduce by rule 15
+	Else	reduce by rule 15
+	Fn	shift 13
+	While	shift 12
+	Do	reduce by rule 15
+	Handle	reduce by rule 15
+	Raise	shift 11
+	And	reduce by rule 15
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 19
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+error:  state 66: shift/reduce conflict (shift Id, reduce by rule 19)
+error:  state 66: shift/reduce conflict (shift False, reduce by rule 19)
+error:  state 66: shift/reduce conflict (shift True, reduce by rule 19)
+error:  state 66: shift/reduce conflict (shift Int, reduce by rule 19)
+error:  state 66: shift/reduce conflict (shift Char, reduce by rule 19)
+error:  state 66: shift/reduce conflict (shift String, reduce by rule 19)
+error:  state 66: shift/reduce conflict (shift Raise, reduce by rule 19)
+error:  state 66: shift/reduce conflict (shift While, reduce by rule 19)
+error:  state 66: shift/reduce conflict (shift Fn, reduce by rule 19)
+error:  state 66: shift/reduce conflict (shift If, reduce by rule 19)
+error:  state 66: shift/reduce conflict (shift Let, reduce by rule 19)
+error:  state 66: shift/reduce conflict (shift LBracket, reduce by rule 19)
+error:  state 66: shift/reduce conflict (shift LParen, reduce by rule 19)
+
+state 66:
+
+	Exp : FuncExp . Exp 
+	Exp : Exp ListCons FuncExp .  (reduce by rule 19)
+
+	EOF	reduce by rule 19
+	LParen	shift 18
+	RParen	reduce by rule 19
+	Plus	reduce by rule 19
+	Minus	reduce by rule 19
+	Times	reduce by rule 19
+	Div	reduce by rule 19
+	Mod	reduce by rule 19
+	Greater	reduce by rule 19
+	Less	reduce by rule 19
+	GreaterEqual	reduce by rule 19
+	LessEqual	reduce by rule 19
+	NotEqual	reduce by rule 19
+	Append	reduce by rule 19
+	ListCons	reduce by rule 19
+	Comma	reduce by rule 19
+	Tilde	shift 17
+	Semicolon	reduce by rule 19
+	Equals	reduce by rule 19
+	VerticalBar	reduce by rule 19
+	LBracket	shift 16
+	RBracket	reduce by rule 19
+	Fun	reduce by rule 19
+	Let	shift 15
+	Val	reduce by rule 19
+	In	reduce by rule 19
+	End	reduce by rule 19
+	If	shift 14
+	Then	reduce by rule 19
+	Else	reduce by rule 19
+	Fn	shift 13
+	While	shift 12
+	Do	reduce by rule 19
+	Handle	reduce by rule 19
+	Raise	shift 11
+	And	reduce by rule 19
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 19
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+error:  state 67: shift/reduce conflict (shift Id, reduce by rule 17)
+error:  state 67: shift/reduce conflict (shift False, reduce by rule 17)
+error:  state 67: shift/reduce conflict (shift True, reduce by rule 17)
+error:  state 67: shift/reduce conflict (shift Int, reduce by rule 17)
+error:  state 67: shift/reduce conflict (shift Char, reduce by rule 17)
+error:  state 67: shift/reduce conflict (shift String, reduce by rule 17)
+error:  state 67: shift/reduce conflict (shift Raise, reduce by rule 17)
+error:  state 67: shift/reduce conflict (shift While, reduce by rule 17)
+error:  state 67: shift/reduce conflict (shift Fn, reduce by rule 17)
+error:  state 67: shift/reduce conflict (shift If, reduce by rule 17)
+error:  state 67: shift/reduce conflict (shift Let, reduce by rule 17)
+error:  state 67: shift/reduce conflict (shift LBracket, reduce by rule 17)
+error:  state 67: shift/reduce conflict (shift LParen, reduce by rule 17)
+
+state 67:
+
+	Exp : FuncExp . Exp 
+	Exp : Exp Append FuncExp .  (reduce by rule 17)
+
+	EOF	reduce by rule 17
+	LParen	shift 18
+	RParen	reduce by rule 17
+	Plus	reduce by rule 17
+	Minus	reduce by rule 17
+	Times	reduce by rule 17
+	Div	reduce by rule 17
+	Mod	reduce by rule 17
+	Greater	reduce by rule 17
+	Less	reduce by rule 17
+	GreaterEqual	reduce by rule 17
+	LessEqual	reduce by rule 17
+	NotEqual	reduce by rule 17
+	Append	reduce by rule 17
+	ListCons	reduce by rule 17
+	Comma	reduce by rule 17
+	Tilde	shift 17
+	Semicolon	reduce by rule 17
+	Equals	reduce by rule 17
+	VerticalBar	reduce by rule 17
+	LBracket	shift 16
+	RBracket	reduce by rule 17
+	Fun	reduce by rule 17
+	Let	shift 15
+	Val	reduce by rule 17
+	In	reduce by rule 17
+	End	reduce by rule 17
+	If	shift 14
+	Then	reduce by rule 17
+	Else	reduce by rule 17
+	Fn	shift 13
+	While	shift 12
+	Do	reduce by rule 17
+	Handle	reduce by rule 17
+	Raise	shift 11
+	And	reduce by rule 17
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 19
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+error:  state 68: shift/reduce conflict (shift Id, reduce by rule 16)
+error:  state 68: shift/reduce conflict (shift False, reduce by rule 16)
+error:  state 68: shift/reduce conflict (shift True, reduce by rule 16)
+error:  state 68: shift/reduce conflict (shift Int, reduce by rule 16)
+error:  state 68: shift/reduce conflict (shift Char, reduce by rule 16)
+error:  state 68: shift/reduce conflict (shift String, reduce by rule 16)
+error:  state 68: shift/reduce conflict (shift Raise, reduce by rule 16)
+error:  state 68: shift/reduce conflict (shift While, reduce by rule 16)
+error:  state 68: shift/reduce conflict (shift Fn, reduce by rule 16)
+error:  state 68: shift/reduce conflict (shift If, reduce by rule 16)
+error:  state 68: shift/reduce conflict (shift Let, reduce by rule 16)
+error:  state 68: shift/reduce conflict (shift LBracket, reduce by rule 16)
+error:  state 68: shift/reduce conflict (shift LParen, reduce by rule 16)
+
+state 68:
+
+	Exp : FuncExp . Exp 
+	Exp : Exp NotEqual FuncExp .  (reduce by rule 16)
+
+	EOF	reduce by rule 16
+	LParen	shift 18
+	RParen	reduce by rule 16
+	Plus	reduce by rule 16
+	Minus	reduce by rule 16
+	Times	reduce by rule 16
+	Div	reduce by rule 16
+	Mod	reduce by rule 16
+	Greater	reduce by rule 16
+	Less	reduce by rule 16
+	GreaterEqual	reduce by rule 16
+	LessEqual	reduce by rule 16
+	NotEqual	reduce by rule 16
+	Append	reduce by rule 16
+	ListCons	reduce by rule 16
+	Comma	reduce by rule 16
+	Tilde	shift 17
+	Semicolon	reduce by rule 16
+	Equals	reduce by rule 16
+	VerticalBar	reduce by rule 16
+	LBracket	shift 16
+	RBracket	reduce by rule 16
+	Fun	reduce by rule 16
+	Let	shift 15
+	Val	reduce by rule 16
+	In	reduce by rule 16
+	End	reduce by rule 16
+	If	shift 14
+	Then	reduce by rule 16
+	Else	reduce by rule 16
+	Fn	shift 13
+	While	shift 12
+	Do	reduce by rule 16
+	Handle	reduce by rule 16
+	Raise	shift 11
+	And	reduce by rule 16
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 19
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+error:  state 69: shift/reduce conflict (shift Id, reduce by rule 14)
+error:  state 69: shift/reduce conflict (shift False, reduce by rule 14)
+error:  state 69: shift/reduce conflict (shift True, reduce by rule 14)
+error:  state 69: shift/reduce conflict (shift Int, reduce by rule 14)
+error:  state 69: shift/reduce conflict (shift Char, reduce by rule 14)
+error:  state 69: shift/reduce conflict (shift String, reduce by rule 14)
+error:  state 69: shift/reduce conflict (shift Raise, reduce by rule 14)
+error:  state 69: shift/reduce conflict (shift While, reduce by rule 14)
+error:  state 69: shift/reduce conflict (shift Fn, reduce by rule 14)
+error:  state 69: shift/reduce conflict (shift If, reduce by rule 14)
+error:  state 69: shift/reduce conflict (shift Let, reduce by rule 14)
+error:  state 69: shift/reduce conflict (shift LBracket, reduce by rule 14)
+error:  state 69: shift/reduce conflict (shift LParen, reduce by rule 14)
+
+state 69:
+
+	Exp : FuncExp . Exp 
+	Exp : Exp LessEqual FuncExp .  (reduce by rule 14)
+
+	EOF	reduce by rule 14
+	LParen	shift 18
+	RParen	reduce by rule 14
+	Plus	reduce by rule 14
+	Minus	reduce by rule 14
+	Times	reduce by rule 14
+	Div	reduce by rule 14
+	Mod	reduce by rule 14
+	Greater	reduce by rule 14
+	Less	reduce by rule 14
+	GreaterEqual	reduce by rule 14
+	LessEqual	reduce by rule 14
+	NotEqual	reduce by rule 14
+	Append	reduce by rule 14
+	ListCons	reduce by rule 14
+	Comma	reduce by rule 14
+	Tilde	shift 17
+	Semicolon	reduce by rule 14
+	Equals	reduce by rule 14
+	VerticalBar	reduce by rule 14
+	LBracket	shift 16
+	RBracket	reduce by rule 14
+	Fun	reduce by rule 14
+	Let	shift 15
+	Val	reduce by rule 14
+	In	reduce by rule 14
+	End	reduce by rule 14
+	If	shift 14
+	Then	reduce by rule 14
+	Else	reduce by rule 14
+	Fn	shift 13
+	While	shift 12
+	Do	reduce by rule 14
+	Handle	reduce by rule 14
+	Raise	shift 11
+	And	reduce by rule 14
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 19
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+error:  state 70: shift/reduce conflict (shift Id, reduce by rule 12)
+error:  state 70: shift/reduce conflict (shift False, reduce by rule 12)
+error:  state 70: shift/reduce conflict (shift True, reduce by rule 12)
+error:  state 70: shift/reduce conflict (shift Int, reduce by rule 12)
+error:  state 70: shift/reduce conflict (shift Char, reduce by rule 12)
+error:  state 70: shift/reduce conflict (shift String, reduce by rule 12)
+error:  state 70: shift/reduce conflict (shift Raise, reduce by rule 12)
+error:  state 70: shift/reduce conflict (shift While, reduce by rule 12)
+error:  state 70: shift/reduce conflict (shift Fn, reduce by rule 12)
+error:  state 70: shift/reduce conflict (shift If, reduce by rule 12)
+error:  state 70: shift/reduce conflict (shift Let, reduce by rule 12)
+error:  state 70: shift/reduce conflict (shift LBracket, reduce by rule 12)
+error:  state 70: shift/reduce conflict (shift LParen, reduce by rule 12)
+
+state 70:
+
+	Exp : FuncExp . Exp 
+	Exp : Exp GreaterEqual FuncExp .  (reduce by rule 12)
+
+	EOF	reduce by rule 12
+	LParen	shift 18
+	RParen	reduce by rule 12
+	Plus	reduce by rule 12
+	Minus	reduce by rule 12
+	Times	reduce by rule 12
+	Div	reduce by rule 12
+	Mod	reduce by rule 12
+	Greater	reduce by rule 12
+	Less	reduce by rule 12
+	GreaterEqual	reduce by rule 12
+	LessEqual	reduce by rule 12
+	NotEqual	reduce by rule 12
+	Append	reduce by rule 12
+	ListCons	reduce by rule 12
+	Comma	reduce by rule 12
+	Tilde	shift 17
+	Semicolon	reduce by rule 12
+	Equals	reduce by rule 12
+	VerticalBar	reduce by rule 12
+	LBracket	shift 16
+	RBracket	reduce by rule 12
+	Fun	reduce by rule 12
+	Let	shift 15
+	Val	reduce by rule 12
+	In	reduce by rule 12
+	End	reduce by rule 12
+	If	shift 14
+	Then	reduce by rule 12
+	Else	reduce by rule 12
+	Fn	shift 13
+	While	shift 12
+	Do	reduce by rule 12
+	Handle	reduce by rule 12
+	Raise	shift 11
+	And	reduce by rule 12
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 19
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+error:  state 71: shift/reduce conflict (shift Id, reduce by rule 13)
+error:  state 71: shift/reduce conflict (shift False, reduce by rule 13)
+error:  state 71: shift/reduce conflict (shift True, reduce by rule 13)
+error:  state 71: shift/reduce conflict (shift Int, reduce by rule 13)
+error:  state 71: shift/reduce conflict (shift Char, reduce by rule 13)
+error:  state 71: shift/reduce conflict (shift String, reduce by rule 13)
+error:  state 71: shift/reduce conflict (shift Raise, reduce by rule 13)
+error:  state 71: shift/reduce conflict (shift While, reduce by rule 13)
+error:  state 71: shift/reduce conflict (shift Fn, reduce by rule 13)
+error:  state 71: shift/reduce conflict (shift If, reduce by rule 13)
+error:  state 71: shift/reduce conflict (shift Let, reduce by rule 13)
+error:  state 71: shift/reduce conflict (shift LBracket, reduce by rule 13)
+error:  state 71: shift/reduce conflict (shift LParen, reduce by rule 13)
+
+state 71:
+
+	Exp : FuncExp . Exp 
+	Exp : Exp Less FuncExp .  (reduce by rule 13)
+
+	EOF	reduce by rule 13
+	LParen	shift 18
+	RParen	reduce by rule 13
+	Plus	reduce by rule 13
+	Minus	reduce by rule 13
+	Times	reduce by rule 13
+	Div	reduce by rule 13
+	Mod	reduce by rule 13
+	Greater	reduce by rule 13
+	Less	reduce by rule 13
+	GreaterEqual	reduce by rule 13
+	LessEqual	reduce by rule 13
+	NotEqual	reduce by rule 13
+	Append	reduce by rule 13
+	ListCons	reduce by rule 13
+	Comma	reduce by rule 13
+	Tilde	shift 17
+	Semicolon	reduce by rule 13
+	Equals	reduce by rule 13
+	VerticalBar	reduce by rule 13
+	LBracket	shift 16
+	RBracket	reduce by rule 13
+	Fun	reduce by rule 13
+	Let	shift 15
+	Val	reduce by rule 13
+	In	reduce by rule 13
+	End	reduce by rule 13
+	If	shift 14
+	Then	reduce by rule 13
+	Else	reduce by rule 13
+	Fn	shift 13
+	While	shift 12
+	Do	reduce by rule 13
+	Handle	reduce by rule 13
+	Raise	shift 11
+	And	reduce by rule 13
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 19
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+error:  state 72: shift/reduce conflict (shift Id, reduce by rule 11)
+error:  state 72: shift/reduce conflict (shift False, reduce by rule 11)
+error:  state 72: shift/reduce conflict (shift True, reduce by rule 11)
+error:  state 72: shift/reduce conflict (shift Int, reduce by rule 11)
+error:  state 72: shift/reduce conflict (shift Char, reduce by rule 11)
+error:  state 72: shift/reduce conflict (shift String, reduce by rule 11)
+error:  state 72: shift/reduce conflict (shift Raise, reduce by rule 11)
+error:  state 72: shift/reduce conflict (shift While, reduce by rule 11)
+error:  state 72: shift/reduce conflict (shift Fn, reduce by rule 11)
+error:  state 72: shift/reduce conflict (shift If, reduce by rule 11)
+error:  state 72: shift/reduce conflict (shift Let, reduce by rule 11)
+error:  state 72: shift/reduce conflict (shift LBracket, reduce by rule 11)
+error:  state 72: shift/reduce conflict (shift LParen, reduce by rule 11)
+
+state 72:
+
+	Exp : FuncExp . Exp 
+	Exp : Exp Greater FuncExp .  (reduce by rule 11)
+
+	EOF	reduce by rule 11
+	LParen	shift 18
+	RParen	reduce by rule 11
+	Plus	reduce by rule 11
+	Minus	reduce by rule 11
+	Times	reduce by rule 11
+	Div	reduce by rule 11
+	Mod	reduce by rule 11
+	Greater	reduce by rule 11
+	Less	reduce by rule 11
+	GreaterEqual	reduce by rule 11
+	LessEqual	reduce by rule 11
+	NotEqual	reduce by rule 11
+	Append	reduce by rule 11
+	ListCons	reduce by rule 11
+	Comma	reduce by rule 11
+	Tilde	shift 17
+	Semicolon	reduce by rule 11
+	Equals	reduce by rule 11
+	VerticalBar	reduce by rule 11
+	LBracket	shift 16
+	RBracket	reduce by rule 11
+	Fun	reduce by rule 11
+	Let	shift 15
+	Val	reduce by rule 11
+	In	reduce by rule 11
+	End	reduce by rule 11
+	If	shift 14
+	Then	reduce by rule 11
+	Else	reduce by rule 11
+	Fn	shift 13
+	While	shift 12
+	Do	reduce by rule 11
+	Handle	reduce by rule 11
+	Raise	shift 11
+	And	reduce by rule 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 19
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+error:  state 73: shift/reduce conflict (shift Id, reduce by rule 10)
+error:  state 73: shift/reduce conflict (shift False, reduce by rule 10)
+error:  state 73: shift/reduce conflict (shift True, reduce by rule 10)
+error:  state 73: shift/reduce conflict (shift Int, reduce by rule 10)
+error:  state 73: shift/reduce conflict (shift Char, reduce by rule 10)
+error:  state 73: shift/reduce conflict (shift String, reduce by rule 10)
+error:  state 73: shift/reduce conflict (shift Raise, reduce by rule 10)
+error:  state 73: shift/reduce conflict (shift While, reduce by rule 10)
+error:  state 73: shift/reduce conflict (shift Fn, reduce by rule 10)
+error:  state 73: shift/reduce conflict (shift If, reduce by rule 10)
+error:  state 73: shift/reduce conflict (shift Let, reduce by rule 10)
+error:  state 73: shift/reduce conflict (shift LBracket, reduce by rule 10)
+error:  state 73: shift/reduce conflict (shift LParen, reduce by rule 10)
+
+state 73:
+
+	Exp : FuncExp . Exp 
+	Exp : Exp Mod FuncExp .  (reduce by rule 10)
+
+	EOF	reduce by rule 10
+	LParen	shift 18
+	RParen	reduce by rule 10
+	Plus	reduce by rule 10
+	Minus	reduce by rule 10
+	Times	reduce by rule 10
+	Div	reduce by rule 10
+	Mod	reduce by rule 10
+	Greater	reduce by rule 10
+	Less	reduce by rule 10
+	GreaterEqual	reduce by rule 10
+	LessEqual	reduce by rule 10
+	NotEqual	reduce by rule 10
+	Append	reduce by rule 10
+	ListCons	reduce by rule 10
+	Comma	reduce by rule 10
+	Tilde	shift 17
+	Semicolon	reduce by rule 10
+	Equals	reduce by rule 10
+	VerticalBar	reduce by rule 10
+	LBracket	shift 16
+	RBracket	reduce by rule 10
+	Fun	reduce by rule 10
+	Let	shift 15
+	Val	reduce by rule 10
+	In	reduce by rule 10
+	End	reduce by rule 10
+	If	shift 14
+	Then	reduce by rule 10
+	Else	reduce by rule 10
+	Fn	shift 13
+	While	shift 12
+	Do	reduce by rule 10
+	Handle	reduce by rule 10
+	Raise	shift 11
+	And	reduce by rule 10
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 19
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+error:  state 74: shift/reduce conflict (shift Id, reduce by rule 9)
+error:  state 74: shift/reduce conflict (shift False, reduce by rule 9)
+error:  state 74: shift/reduce conflict (shift True, reduce by rule 9)
+error:  state 74: shift/reduce conflict (shift Int, reduce by rule 9)
+error:  state 74: shift/reduce conflict (shift Char, reduce by rule 9)
+error:  state 74: shift/reduce conflict (shift String, reduce by rule 9)
+error:  state 74: shift/reduce conflict (shift Raise, reduce by rule 9)
+error:  state 74: shift/reduce conflict (shift While, reduce by rule 9)
+error:  state 74: shift/reduce conflict (shift Fn, reduce by rule 9)
+error:  state 74: shift/reduce conflict (shift If, reduce by rule 9)
+error:  state 74: shift/reduce conflict (shift Let, reduce by rule 9)
+error:  state 74: shift/reduce conflict (shift LBracket, reduce by rule 9)
+error:  state 74: shift/reduce conflict (shift LParen, reduce by rule 9)
+
+state 74:
+
+	Exp : FuncExp . Exp 
+	Exp : Exp Div FuncExp .  (reduce by rule 9)
+
+	EOF	reduce by rule 9
+	LParen	shift 18
+	RParen	reduce by rule 9
+	Plus	reduce by rule 9
+	Minus	reduce by rule 9
+	Times	reduce by rule 9
+	Div	reduce by rule 9
+	Mod	reduce by rule 9
+	Greater	reduce by rule 9
+	Less	reduce by rule 9
+	GreaterEqual	reduce by rule 9
+	LessEqual	reduce by rule 9
+	NotEqual	reduce by rule 9
+	Append	reduce by rule 9
+	ListCons	reduce by rule 9
+	Comma	reduce by rule 9
+	Tilde	shift 17
+	Semicolon	reduce by rule 9
+	Equals	reduce by rule 9
+	VerticalBar	reduce by rule 9
+	LBracket	shift 16
+	RBracket	reduce by rule 9
+	Fun	reduce by rule 9
+	Let	shift 15
+	Val	reduce by rule 9
+	In	reduce by rule 9
+	End	reduce by rule 9
+	If	shift 14
+	Then	reduce by rule 9
+	Else	reduce by rule 9
+	Fn	shift 13
+	While	shift 12
+	Do	reduce by rule 9
+	Handle	reduce by rule 9
+	Raise	shift 11
+	And	reduce by rule 9
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 19
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+error:  state 75: shift/reduce conflict (shift Id, reduce by rule 8)
+error:  state 75: shift/reduce conflict (shift False, reduce by rule 8)
+error:  state 75: shift/reduce conflict (shift True, reduce by rule 8)
+error:  state 75: shift/reduce conflict (shift Int, reduce by rule 8)
+error:  state 75: shift/reduce conflict (shift Char, reduce by rule 8)
+error:  state 75: shift/reduce conflict (shift String, reduce by rule 8)
+error:  state 75: shift/reduce conflict (shift Raise, reduce by rule 8)
+error:  state 75: shift/reduce conflict (shift While, reduce by rule 8)
+error:  state 75: shift/reduce conflict (shift Fn, reduce by rule 8)
+error:  state 75: shift/reduce conflict (shift If, reduce by rule 8)
+error:  state 75: shift/reduce conflict (shift Let, reduce by rule 8)
+error:  state 75: shift/reduce conflict (shift LBracket, reduce by rule 8)
+error:  state 75: shift/reduce conflict (shift LParen, reduce by rule 8)
+
+state 75:
+
+	Exp : FuncExp . Exp 
+	Exp : Exp Times FuncExp .  (reduce by rule 8)
+
+	EOF	reduce by rule 8
+	LParen	shift 18
+	RParen	reduce by rule 8
+	Plus	reduce by rule 8
+	Minus	reduce by rule 8
+	Times	reduce by rule 8
+	Div	reduce by rule 8
+	Mod	reduce by rule 8
+	Greater	reduce by rule 8
+	Less	reduce by rule 8
+	GreaterEqual	reduce by rule 8
+	LessEqual	reduce by rule 8
+	NotEqual	reduce by rule 8
+	Append	reduce by rule 8
+	ListCons	reduce by rule 8
+	Comma	reduce by rule 8
+	Tilde	shift 17
+	Semicolon	reduce by rule 8
+	Equals	reduce by rule 8
+	VerticalBar	reduce by rule 8
+	LBracket	shift 16
+	RBracket	reduce by rule 8
+	Fun	reduce by rule 8
+	Let	shift 15
+	Val	reduce by rule 8
+	In	reduce by rule 8
+	End	reduce by rule 8
+	If	shift 14
+	Then	reduce by rule 8
+	Else	reduce by rule 8
+	Fn	shift 13
+	While	shift 12
+	Do	reduce by rule 8
+	Handle	reduce by rule 8
+	Raise	shift 11
+	And	reduce by rule 8
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 19
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+error:  state 76: shift/reduce conflict (shift Id, reduce by rule 7)
+error:  state 76: shift/reduce conflict (shift False, reduce by rule 7)
+error:  state 76: shift/reduce conflict (shift True, reduce by rule 7)
+error:  state 76: shift/reduce conflict (shift Int, reduce by rule 7)
+error:  state 76: shift/reduce conflict (shift Char, reduce by rule 7)
+error:  state 76: shift/reduce conflict (shift String, reduce by rule 7)
+error:  state 76: shift/reduce conflict (shift Raise, reduce by rule 7)
+error:  state 76: shift/reduce conflict (shift While, reduce by rule 7)
+error:  state 76: shift/reduce conflict (shift Fn, reduce by rule 7)
+error:  state 76: shift/reduce conflict (shift If, reduce by rule 7)
+error:  state 76: shift/reduce conflict (shift Let, reduce by rule 7)
+error:  state 76: shift/reduce conflict (shift LBracket, reduce by rule 7)
+error:  state 76: shift/reduce conflict (shift LParen, reduce by rule 7)
+
+state 76:
+
+	Exp : FuncExp . Exp 
+	Exp : Exp Minus FuncExp .  (reduce by rule 7)
+
+	EOF	reduce by rule 7
+	LParen	shift 18
+	RParen	reduce by rule 7
+	Plus	reduce by rule 7
+	Minus	reduce by rule 7
+	Times	reduce by rule 7
+	Div	reduce by rule 7
+	Mod	reduce by rule 7
+	Greater	reduce by rule 7
+	Less	reduce by rule 7
+	GreaterEqual	reduce by rule 7
+	LessEqual	reduce by rule 7
+	NotEqual	reduce by rule 7
+	Append	reduce by rule 7
+	ListCons	reduce by rule 7
+	Comma	reduce by rule 7
+	Tilde	shift 17
+	Semicolon	reduce by rule 7
+	Equals	reduce by rule 7
+	VerticalBar	reduce by rule 7
+	LBracket	shift 16
+	RBracket	reduce by rule 7
+	Fun	reduce by rule 7
+	Let	shift 15
+	Val	reduce by rule 7
+	In	reduce by rule 7
+	End	reduce by rule 7
+	If	shift 14
+	Then	reduce by rule 7
+	Else	reduce by rule 7
+	Fn	shift 13
+	While	shift 12
+	Do	reduce by rule 7
+	Handle	reduce by rule 7
+	Raise	shift 11
+	And	reduce by rule 7
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 19
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+error:  state 77: shift/reduce conflict (shift Id, reduce by rule 6)
+error:  state 77: shift/reduce conflict (shift False, reduce by rule 6)
+error:  state 77: shift/reduce conflict (shift True, reduce by rule 6)
+error:  state 77: shift/reduce conflict (shift Int, reduce by rule 6)
+error:  state 77: shift/reduce conflict (shift Char, reduce by rule 6)
+error:  state 77: shift/reduce conflict (shift String, reduce by rule 6)
+error:  state 77: shift/reduce conflict (shift Raise, reduce by rule 6)
+error:  state 77: shift/reduce conflict (shift While, reduce by rule 6)
+error:  state 77: shift/reduce conflict (shift Fn, reduce by rule 6)
+error:  state 77: shift/reduce conflict (shift If, reduce by rule 6)
+error:  state 77: shift/reduce conflict (shift Let, reduce by rule 6)
+error:  state 77: shift/reduce conflict (shift LBracket, reduce by rule 6)
+error:  state 77: shift/reduce conflict (shift LParen, reduce by rule 6)
+
+state 77:
+
+	Exp : FuncExp . Exp 
+	Exp : Exp Plus FuncExp .  (reduce by rule 6)
+
+	EOF	reduce by rule 6
+	LParen	shift 18
+	RParen	reduce by rule 6
+	Plus	reduce by rule 6
+	Minus	reduce by rule 6
+	Times	reduce by rule 6
+	Div	reduce by rule 6
+	Mod	reduce by rule 6
+	Greater	reduce by rule 6
+	Less	reduce by rule 6
+	GreaterEqual	reduce by rule 6
+	LessEqual	reduce by rule 6
+	NotEqual	reduce by rule 6
+	Append	reduce by rule 6
+	ListCons	reduce by rule 6
+	Comma	reduce by rule 6
+	Tilde	shift 17
+	Semicolon	reduce by rule 6
+	Equals	reduce by rule 6
+	VerticalBar	reduce by rule 6
+	LBracket	shift 16
+	RBracket	reduce by rule 6
+	Fun	reduce by rule 6
+	Let	shift 15
+	Val	reduce by rule 6
+	In	reduce by rule 6
+	End	reduce by rule 6
+	If	shift 14
+	Then	reduce by rule 6
+	Else	reduce by rule 6
+	Fn	shift 13
+	While	shift 12
+	Do	reduce by rule 6
+	Handle	reduce by rule 6
+	Raise	shift 11
+	And	reduce by rule 6
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 19
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+error:  state 78: shift/reduce conflict (shift Id, reduce by rule 5)
+error:  state 78: shift/reduce conflict (shift False, reduce by rule 5)
+error:  state 78: shift/reduce conflict (shift True, reduce by rule 5)
+error:  state 78: shift/reduce conflict (shift Int, reduce by rule 5)
+error:  state 78: shift/reduce conflict (shift Char, reduce by rule 5)
+error:  state 78: shift/reduce conflict (shift String, reduce by rule 5)
+error:  state 78: shift/reduce conflict (shift Raise, reduce by rule 5)
+error:  state 78: shift/reduce conflict (shift While, reduce by rule 5)
+error:  state 78: shift/reduce conflict (shift Fn, reduce by rule 5)
+error:  state 78: shift/reduce conflict (shift If, reduce by rule 5)
+error:  state 78: shift/reduce conflict (shift Let, reduce by rule 5)
+error:  state 78: shift/reduce conflict (shift LBracket, reduce by rule 5)
+error:  state 78: shift/reduce conflict (shift LParen, reduce by rule 5)
+
+state 78:
+
+	Exp : FuncExp . Exp 
+	Exp : Id SetEqual FuncExp .  (reduce by rule 5)
+
+	EOF	reduce by rule 5
+	LParen	shift 18
+	RParen	reduce by rule 5
+	Plus	reduce by rule 5
+	Minus	reduce by rule 5
+	Times	reduce by rule 5
+	Div	reduce by rule 5
+	Mod	reduce by rule 5
+	Greater	reduce by rule 5
+	Less	reduce by rule 5
+	GreaterEqual	reduce by rule 5
+	LessEqual	reduce by rule 5
+	NotEqual	reduce by rule 5
+	Append	reduce by rule 5
+	ListCons	reduce by rule 5
+	Comma	reduce by rule 5
+	Tilde	shift 17
+	Semicolon	reduce by rule 5
+	Equals	reduce by rule 5
+	VerticalBar	reduce by rule 5
+	LBracket	shift 16
+	RBracket	reduce by rule 5
+	Fun	reduce by rule 5
+	Let	shift 15
+	Val	reduce by rule 5
+	In	reduce by rule 5
+	End	reduce by rule 5
+	If	shift 14
+	Then	reduce by rule 5
+	Else	reduce by rule 5
+	Fn	shift 13
+	While	shift 12
+	Do	reduce by rule 5
+	Handle	reduce by rule 5
+	Raise	shift 11
+	And	reduce by rule 5
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 19
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+
+state 79:
+
+	Exp : While Exp Do . FuncExp 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 38
+	Con	goto 2
+	FuncExp	goto 105
+
+	.	error
+
+
+state 80:
+
+	MatchExp : Pat Arrow . Exp 
+	MatchExp : Pat Arrow . Exp VerticalBar MatchExp 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 106
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+
+state 81:
+
+	Pat : Pat ListCons . Pat 
+
+	LParen	shift 50
+	Underscore	shift 49
+	LBracket	shift 48
+	String	shift 47
+	Char	shift 46
+	Int	shift 45
+	True	shift 44
+	False	shift 43
+	Id	shift 42
+
+	Pat	goto 107
+
+	.	error
+
+
+state 82:
+
+	Pat : Id As . Pat 
+
+	LParen	shift 50
+	Underscore	shift 49
+	LBracket	shift 48
+	String	shift 47
+	Char	shift 46
+	Int	shift 45
+	True	shift 44
+	False	shift 43
+	Id	shift 42
+
+	Pat	goto 108
+
+	.	error
+
+
+state 83:
+
+	Pat : LBracket Patterns . RBracket 
+
+	RBracket	shift 109
+
+
+	.	error
+
+
+state 84:
+
+	Pat : Pat . ListCons Pat 
+	Patterns : Pat .  (reduce by rule 53)
+	Patterns : Pat . Comma Patterns 
+
+	RParen	reduce by rule 53
+	ListCons	shift 81
+	Comma	shift 110
+	RBracket	reduce by rule 53
+
+
+	.	error
+
+
+state 85:
+
+	Pat : LBracket RBracket .  (reduce by rule 51)
+
+	LParen	reduce by rule 51
+	RParen	reduce by rule 51
+	ListCons	reduce by rule 51
+	Comma	reduce by rule 51
+	Underscore	reduce by rule 51
+	Arrow	reduce by rule 51
+	Equals	reduce by rule 51
+	LBracket	reduce by rule 51
+	RBracket	reduce by rule 51
+	String	reduce by rule 51
+	Char	reduce by rule 51
+	Int	reduce by rule 51
+	True	reduce by rule 51
+	False	reduce by rule 51
+	Id	reduce by rule 51
+
+
+	.	error
+
+
+state 86:
+
+	Pat : LParen Patterns . RParen 
+
+	RParen	shift 111
+
+
+	.	error
+
+error:  state 87: shift/reduce conflict (shift RParen, reduce by rule 53)
+
+state 87:
+
+	Pat : Pat . ListCons Pat 
+	Pat : LParen Pat . RParen 
+	Patterns : Pat .  (reduce by rule 53)
+	Patterns : Pat . Comma Patterns 
+
+	RParen	shift 112
+	ListCons	shift 81
+	Comma	shift 110
+
+
+	.	error
+
+
+state 88:
+
+	Pat : LParen RParen .  (reduce by rule 47)
+
+	LParen	reduce by rule 47
+	RParen	reduce by rule 47
+	ListCons	reduce by rule 47
+	Comma	reduce by rule 47
+	Underscore	reduce by rule 47
+	Arrow	reduce by rule 47
+	Equals	reduce by rule 47
+	LBracket	reduce by rule 47
+	RBracket	reduce by rule 47
+	String	reduce by rule 47
+	Char	reduce by rule 47
+	Int	reduce by rule 47
+	True	reduce by rule 47
+	False	reduce by rule 47
+	Id	reduce by rule 47
+
+
+	.	error
+
+
+state 89:
+
+	Exp : If Exp Then . Exp Else FuncExp 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 113
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+
+state 90:
+
+	Exp : Let DecSeq In . ExpSequence End 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 115
+	ExpSequence	goto 114
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+
+state 91:
+
+	DecSeq : Dec DecSeq .  (reduce by rule 60)
+
+	In	reduce by rule 60
+
+
+	.	error
+
+
+state 92:
+
+	Dec : Val ValBind .  (reduce by rule 57)
+
+	Fun	reduce by rule 57
+	Val	reduce by rule 57
+	In	reduce by rule 57
+
+
+	.	error
+
+
+state 93:
+
+	Pat : Pat . ListCons Pat 
+	ValBind : Pat . Equals Exp 
+
+	ListCons	shift 81
+	Equals	shift 116
+
+
+	.	error
+
+
+state 94:
+
+	ValBind : Rec . Id Equals Exp 
+
+	Id	shift 117
+
+
+	.	error
+
+
+state 95:
+
+	FunBind : CurriedFun .  (reduce by rule 64)
+
+	Fun	reduce by rule 64
+	Val	reduce by rule 64
+	In	reduce by rule 64
+	And	reduce by rule 64
+
+
+	.	error
+
+
+state 96:
+
+	FunBind : FunMatch .  (reduce by rule 63)
+
+	Fun	reduce by rule 63
+	Val	reduce by rule 63
+	In	reduce by rule 63
+	And	reduce by rule 63
+
+
+	.	error
+
+
+state 97:
+
+	Dec : Fun FunBind .  (reduce by rule 58)
+	FunBind : FunBind . And FunBind 
+
+	Fun	reduce by rule 58
+	Val	reduce by rule 58
+	In	reduce by rule 58
+	And	shift 118
+
+
+	.	error
+
+
+state 98:
+
+	FunMatch : Id . Pat Equals Exp 
+	FunMatch : Id . Pat Equals Exp VerticalBar FunMatch 
+	CurriedFun : Id . PatternSeq Equals Exp 
+	CurriedFun : Id . PatternSeq Equals Exp VerticalBar CurriedFun 
+
+	LParen	shift 50
+	Underscore	shift 49
+	LBracket	shift 48
+	String	shift 47
+	Char	shift 46
+	Int	shift 45
+	True	shift 44
+	False	shift 43
+	Id	shift 42
+
+	Pat	goto 120
+	PatternSeq	goto 119
+
+	.	error
+
+
+state 99:
+
+	Exp : LBracket Expressions RBracket .  (reduce by rule 24)
+
+	EOF	reduce by rule 24
+	LParen	reduce by rule 24
+	RParen	reduce by rule 24
+	Plus	reduce by rule 24
+	Minus	reduce by rule 24
+	Times	reduce by rule 24
+	Div	reduce by rule 24
+	Mod	reduce by rule 24
+	Greater	reduce by rule 24
+	Less	reduce by rule 24
+	GreaterEqual	reduce by rule 24
+	LessEqual	reduce by rule 24
+	NotEqual	reduce by rule 24
+	Append	reduce by rule 24
+	ListCons	reduce by rule 24
+	Comma	reduce by rule 24
+	Tilde	reduce by rule 24
+	Semicolon	reduce by rule 24
+	Equals	reduce by rule 24
+	VerticalBar	reduce by rule 24
+	LBracket	reduce by rule 24
+	RBracket	reduce by rule 24
+	Fun	reduce by rule 24
+	Let	reduce by rule 24
+	Val	reduce by rule 24
+	In	reduce by rule 24
+	End	reduce by rule 24
+	If	reduce by rule 24
+	Then	reduce by rule 24
+	Else	reduce by rule 24
+	Fn	reduce by rule 24
+	While	reduce by rule 24
+	Do	reduce by rule 24
+	Handle	reduce by rule 24
+	Raise	reduce by rule 24
+	And	reduce by rule 24
+	String	reduce by rule 24
+	Char	reduce by rule 24
+	Int	reduce by rule 24
+	True	reduce by rule 24
+	False	reduce by rule 24
+	Id	reduce by rule 24
+	Exclaim	reduce by rule 24
+
+
+	.	error
+
+
+state 100:
+
+	Expressions : Exp Comma . Expressions 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 57
+	Expressions	goto 121
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+
+state 101:
+
+	Exp : LParen ExpSequence RParen .  (reduce by rule 23)
+
+	EOF	reduce by rule 23
+	LParen	reduce by rule 23
+	RParen	reduce by rule 23
+	Plus	reduce by rule 23
+	Minus	reduce by rule 23
+	Times	reduce by rule 23
+	Div	reduce by rule 23
+	Mod	reduce by rule 23
+	Greater	reduce by rule 23
+	Less	reduce by rule 23
+	GreaterEqual	reduce by rule 23
+	LessEqual	reduce by rule 23
+	NotEqual	reduce by rule 23
+	Append	reduce by rule 23
+	ListCons	reduce by rule 23
+	Comma	reduce by rule 23
+	Tilde	reduce by rule 23
+	Semicolon	reduce by rule 23
+	Equals	reduce by rule 23
+	VerticalBar	reduce by rule 23
+	LBracket	reduce by rule 23
+	RBracket	reduce by rule 23
+	Fun	reduce by rule 23
+	Let	reduce by rule 23
+	Val	reduce by rule 23
+	In	reduce by rule 23
+	End	reduce by rule 23
+	If	reduce by rule 23
+	Then	reduce by rule 23
+	Else	reduce by rule 23
+	Fn	reduce by rule 23
+	While	reduce by rule 23
+	Do	reduce by rule 23
+	Handle	reduce by rule 23
+	Raise	reduce by rule 23
+	And	reduce by rule 23
+	String	reduce by rule 23
+	Char	reduce by rule 23
+	Int	reduce by rule 23
+	True	reduce by rule 23
+	False	reduce by rule 23
+	Id	reduce by rule 23
+	Exclaim	reduce by rule 23
+
+
+	.	error
+
+
+state 102:
+
+	Exp : LParen Expressions RParen .  (reduce by rule 22)
+
+	EOF	reduce by rule 22
+	LParen	reduce by rule 22
+	RParen	reduce by rule 22
+	Plus	reduce by rule 22
+	Minus	reduce by rule 22
+	Times	reduce by rule 22
+	Div	reduce by rule 22
+	Mod	reduce by rule 22
+	Greater	reduce by rule 22
+	Less	reduce by rule 22
+	GreaterEqual	reduce by rule 22
+	LessEqual	reduce by rule 22
+	NotEqual	reduce by rule 22
+	Append	reduce by rule 22
+	ListCons	reduce by rule 22
+	Comma	reduce by rule 22
+	Tilde	reduce by rule 22
+	Semicolon	reduce by rule 22
+	Equals	reduce by rule 22
+	VerticalBar	reduce by rule 22
+	LBracket	reduce by rule 22
+	RBracket	reduce by rule 22
+	Fun	reduce by rule 22
+	Let	reduce by rule 22
+	Val	reduce by rule 22
+	In	reduce by rule 22
+	End	reduce by rule 22
+	If	reduce by rule 22
+	Then	reduce by rule 22
+	Else	reduce by rule 22
+	Fn	reduce by rule 22
+	While	reduce by rule 22
+	Do	reduce by rule 22
+	Handle	reduce by rule 22
+	Raise	reduce by rule 22
+	And	reduce by rule 22
+	String	reduce by rule 22
+	Char	reduce by rule 22
+	Int	reduce by rule 22
+	True	reduce by rule 22
+	False	reduce by rule 22
+	Id	reduce by rule 22
+	Exclaim	reduce by rule 22
+
+
+	.	error
+
+
+state 103:
+
+	ExpSequence : Exp Semicolon . ExpSequence 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 115
+	ExpSequence	goto 122
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+
+state 104:
+
+	Exp : LParen Exp RParen .  (reduce by rule 21)
+
+	EOF	reduce by rule 21
+	LParen	reduce by rule 21
+	RParen	reduce by rule 21
+	Plus	reduce by rule 21
+	Minus	reduce by rule 21
+	Times	reduce by rule 21
+	Div	reduce by rule 21
+	Mod	reduce by rule 21
+	Greater	reduce by rule 21
+	Less	reduce by rule 21
+	GreaterEqual	reduce by rule 21
+	LessEqual	reduce by rule 21
+	NotEqual	reduce by rule 21
+	Append	reduce by rule 21
+	ListCons	reduce by rule 21
+	Comma	reduce by rule 21
+	Tilde	reduce by rule 21
+	Semicolon	reduce by rule 21
+	Equals	reduce by rule 21
+	VerticalBar	reduce by rule 21
+	LBracket	reduce by rule 21
+	RBracket	reduce by rule 21
+	Fun	reduce by rule 21
+	Let	reduce by rule 21
+	Val	reduce by rule 21
+	In	reduce by rule 21
+	End	reduce by rule 21
+	If	reduce by rule 21
+	Then	reduce by rule 21
+	Else	reduce by rule 21
+	Fn	reduce by rule 21
+	While	reduce by rule 21
+	Do	reduce by rule 21
+	Handle	reduce by rule 21
+	Raise	reduce by rule 21
+	And	reduce by rule 21
+	String	reduce by rule 21
+	Char	reduce by rule 21
+	Int	reduce by rule 21
+	True	reduce by rule 21
+	False	reduce by rule 21
+	Id	reduce by rule 21
+	Exclaim	reduce by rule 21
+
+
+	.	error
+
+error:  state 105: shift/reduce conflict (shift Exclaim, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift Id, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift False, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift True, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift Int, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift Char, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift String, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift Raise, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift While, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift Fn, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift If, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift Let, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift LBracket, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift Tilde, reduce by rule 30)
+error:  state 105: shift/reduce conflict (shift LParen, reduce by rule 30)
+
+state 105:
+
+	Exp : FuncExp . Exp 
+	Exp : While Exp Do FuncExp .  (reduce by rule 30)
+
+	EOF	reduce by rule 30
+	LParen	shift 18
+	RParen	reduce by rule 30
+	Plus	reduce by rule 30
+	Minus	reduce by rule 30
+	Times	reduce by rule 30
+	Div	reduce by rule 30
+	Mod	reduce by rule 30
+	Greater	reduce by rule 30
+	Less	reduce by rule 30
+	GreaterEqual	reduce by rule 30
+	LessEqual	reduce by rule 30
+	NotEqual	reduce by rule 30
+	Append	reduce by rule 30
+	ListCons	reduce by rule 30
+	Comma	reduce by rule 30
+	Tilde	shift 17
+	Semicolon	reduce by rule 30
+	Equals	reduce by rule 30
+	VerticalBar	reduce by rule 30
+	LBracket	shift 16
+	RBracket	reduce by rule 30
+	Fun	reduce by rule 30
+	Let	shift 15
+	Val	reduce by rule 30
+	In	reduce by rule 30
+	End	reduce by rule 30
+	If	shift 14
+	Then	reduce by rule 30
+	Else	reduce by rule 30
+	Fn	shift 13
+	While	shift 12
+	Do	reduce by rule 30
+	Handle	reduce by rule 30
+	Raise	shift 11
+	And	reduce by rule 30
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 19
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on Exclaim
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on Id
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on False
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on True
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on Int
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on Char
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on String
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on Raise
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on While
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on Fn
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on If
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on Let
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on LBracket
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on Tilde
+error:  state 106: reduce/reduce conflict between rule 32 and rule 37 on LParen
+error:  state 106: shift/reduce conflict (shift Handle, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift VerticalBar, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift Equals, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift ListCons, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift Append, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift NotEqual, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift LessEqual, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift GreaterEqual, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift Less, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift Greater, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift Mod, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift Div, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift Times, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift Minus, reduce by rule 37)
+error:  state 106: shift/reduce conflict (shift Plus, reduce by rule 37)
+
+state 106:
+
+	Exp : Exp . Plus FuncExp 
+	Exp : Exp . Minus FuncExp 
+	Exp : Exp . Times FuncExp 
+	Exp : Exp . Div FuncExp 
+	Exp : Exp . Mod FuncExp 
+	Exp : Exp . Greater FuncExp 
+	Exp : Exp . GreaterEqual FuncExp 
+	Exp : Exp . Less FuncExp 
+	Exp : Exp . LessEqual FuncExp 
+	Exp : Exp . Equals FuncExp 
+	Exp : Exp . NotEqual FuncExp 
+	Exp : Exp . Append FuncExp 
+	Exp : Exp . ListCons FuncExp 
+	Exp : Exp . Handle MatchExp 
+	MatchExp : Pat Arrow Exp .  (reduce by rule 37)
+	MatchExp : Pat Arrow Exp . VerticalBar MatchExp 
+	FuncExp : Exp .  (reduce by rule 32)
+
+	EOF	reduce by rule 37
+	LParen	reduce by rule 32
+	RParen	reduce by rule 37
+	Plus	shift 33
+	Minus	shift 32
+	Times	shift 31
+	Div	shift 30
+	Mod	shift 29
+	Greater	shift 28
+	Less	shift 27
+	GreaterEqual	shift 26
+	LessEqual	shift 25
+	NotEqual	shift 24
+	Append	shift 23
+	ListCons	shift 22
+	Comma	reduce by rule 37
+	Tilde	reduce by rule 32
+	Semicolon	reduce by rule 37
+	Equals	shift 21
+	VerticalBar	shift 123
+	LBracket	reduce by rule 32
+	RBracket	reduce by rule 37
+	Fun	reduce by rule 37
+	Let	reduce by rule 32
+	Val	reduce by rule 37
+	In	reduce by rule 37
+	End	reduce by rule 37
+	If	reduce by rule 32
+	Then	reduce by rule 37
+	Else	reduce by rule 37
+	Fn	reduce by rule 32
+	While	reduce by rule 32
+	Do	reduce by rule 37
+	Handle	shift 20
+	Raise	reduce by rule 32
+	And	reduce by rule 37
+	String	reduce by rule 32
+	Char	reduce by rule 32
+	Int	reduce by rule 32
+	True	reduce by rule 32
+	False	reduce by rule 32
+	Id	reduce by rule 32
+	Exclaim	reduce by rule 32
+
+
+	.	error
+
+
+state 107:
+
+	Pat : Pat . ListCons Pat 
+	Pat : Pat ListCons Pat .  (reduce by rule 46)
+
+	LParen	reduce by rule 46
+	RParen	reduce by rule 46
+	ListCons	shift 81
+	Comma	reduce by rule 46
+	Underscore	reduce by rule 46
+	Arrow	reduce by rule 46
+	Equals	reduce by rule 46
+	LBracket	reduce by rule 46
+	RBracket	reduce by rule 46
+	String	reduce by rule 46
+	Char	reduce by rule 46
+	Int	reduce by rule 46
+	True	reduce by rule 46
+	False	reduce by rule 46
+	Id	reduce by rule 46
+
+
+	.	error
+
+error:  state 108: shift/reduce conflict (shift ListCons, reduce by rule 52)
+
+state 108:
+
+	Pat : Pat . ListCons Pat 
+	Pat : Id As Pat .  (reduce by rule 52)
+
+	LParen	reduce by rule 52
+	RParen	reduce by rule 52
+	ListCons	shift 81
+	Comma	reduce by rule 52
+	Underscore	reduce by rule 52
+	Arrow	reduce by rule 52
+	Equals	reduce by rule 52
+	LBracket	reduce by rule 52
+	RBracket	reduce by rule 52
+	String	reduce by rule 52
+	Char	reduce by rule 52
+	Int	reduce by rule 52
+	True	reduce by rule 52
+	False	reduce by rule 52
+	Id	reduce by rule 52
+
+
+	.	error
+
+
+state 109:
+
+	Pat : LBracket Patterns RBracket .  (reduce by rule 50)
+
+	LParen	reduce by rule 50
+	RParen	reduce by rule 50
+	ListCons	reduce by rule 50
+	Comma	reduce by rule 50
+	Underscore	reduce by rule 50
+	Arrow	reduce by rule 50
+	Equals	reduce by rule 50
+	LBracket	reduce by rule 50
+	RBracket	reduce by rule 50
+	String	reduce by rule 50
+	Char	reduce by rule 50
+	Int	reduce by rule 50
+	True	reduce by rule 50
+	False	reduce by rule 50
+	Id	reduce by rule 50
+
+
+	.	error
+
+
+state 110:
+
+	Patterns : Pat Comma . Patterns 
+
+	LParen	shift 50
+	Underscore	shift 49
+	LBracket	shift 48
+	String	shift 47
+	Char	shift 46
+	Int	shift 45
+	True	shift 44
+	False	shift 43
+	Id	shift 42
+
+	Pat	goto 84
+	Patterns	goto 124
+
+	.	error
+
+
+state 111:
+
+	Pat : LParen Patterns RParen .  (reduce by rule 49)
+
+	LParen	reduce by rule 49
+	RParen	reduce by rule 49
+	ListCons	reduce by rule 49
+	Comma	reduce by rule 49
+	Underscore	reduce by rule 49
+	Arrow	reduce by rule 49
+	Equals	reduce by rule 49
+	LBracket	reduce by rule 49
+	RBracket	reduce by rule 49
+	String	reduce by rule 49
+	Char	reduce by rule 49
+	Int	reduce by rule 49
+	True	reduce by rule 49
+	False	reduce by rule 49
+	Id	reduce by rule 49
+
+
+	.	error
+
+
+state 112:
+
+	Pat : LParen Pat RParen .  (reduce by rule 48)
+
+	LParen	reduce by rule 48
+	RParen	reduce by rule 48
+	ListCons	reduce by rule 48
+	Comma	reduce by rule 48
+	Underscore	reduce by rule 48
+	Arrow	reduce by rule 48
+	Equals	reduce by rule 48
+	LBracket	reduce by rule 48
+	RBracket	reduce by rule 48
+	String	reduce by rule 48
+	Char	reduce by rule 48
+	Int	reduce by rule 48
+	True	reduce by rule 48
+	False	reduce by rule 48
+	Id	reduce by rule 48
+
+
+	.	error
+
+
+state 113:
+
+	Exp : Exp . Plus FuncExp 
+	Exp : Exp . Minus FuncExp 
+	Exp : Exp . Times FuncExp 
+	Exp : Exp . Div FuncExp 
+	Exp : Exp . Mod FuncExp 
+	Exp : Exp . Greater FuncExp 
+	Exp : Exp . GreaterEqual FuncExp 
+	Exp : Exp . Less FuncExp 
+	Exp : Exp . LessEqual FuncExp 
+	Exp : Exp . Equals FuncExp 
+	Exp : Exp . NotEqual FuncExp 
+	Exp : Exp . Append FuncExp 
+	Exp : Exp . ListCons FuncExp 
+	Exp : Exp . Handle MatchExp 
+	Exp : If Exp Then Exp . Else FuncExp 
+	FuncExp : Exp .  (reduce by rule 32)
+
+	LParen	reduce by rule 32
+	Plus	shift 33
+	Minus	shift 32
+	Times	shift 31
+	Div	shift 30
+	Mod	shift 29
+	Greater	shift 28
+	Less	shift 27
+	GreaterEqual	shift 26
+	LessEqual	shift 25
+	NotEqual	shift 24
+	Append	shift 23
+	ListCons	shift 22
+	Tilde	reduce by rule 32
+	Equals	shift 21
+	LBracket	reduce by rule 32
+	Let	reduce by rule 32
+	If	reduce by rule 32
+	Else	shift 125
+	Fn	reduce by rule 32
+	While	reduce by rule 32
+	Handle	shift 20
+	Raise	reduce by rule 32
+	String	reduce by rule 32
+	Char	reduce by rule 32
+	Int	reduce by rule 32
+	True	reduce by rule 32
+	False	reduce by rule 32
+	Id	reduce by rule 32
+	Exclaim	reduce by rule 32
+
+
+	.	error
+
+
+state 114:
+
+	Exp : Let DecSeq In ExpSequence . End 
+
+	End	shift 126
+
+
+	.	error
+
+
+state 115:
+
+	Exp : Exp . Plus FuncExp 
+	Exp : Exp . Minus FuncExp 
+	Exp : Exp . Times FuncExp 
+	Exp : Exp . Div FuncExp 
+	Exp : Exp . Mod FuncExp 
+	Exp : Exp . Greater FuncExp 
+	Exp : Exp . GreaterEqual FuncExp 
+	Exp : Exp . Less FuncExp 
+	Exp : Exp . LessEqual FuncExp 
+	Exp : Exp . Equals FuncExp 
+	Exp : Exp . NotEqual FuncExp 
+	Exp : Exp . Append FuncExp 
+	Exp : Exp . ListCons FuncExp 
+	Exp : Exp . Handle MatchExp 
+	ExpSequence : Exp .  (reduce by rule 35)
+	ExpSequence : Exp . Semicolon ExpSequence 
+	FuncExp : Exp .  (reduce by rule 32)
+
+	LParen	reduce by rule 32
+	RParen	reduce by rule 35
+	Plus	shift 33
+	Minus	shift 32
+	Times	shift 31
+	Div	shift 30
+	Mod	shift 29
+	Greater	shift 28
+	Less	shift 27
+	GreaterEqual	shift 26
+	LessEqual	shift 25
+	NotEqual	shift 24
+	Append	shift 23
+	ListCons	shift 22
+	Tilde	reduce by rule 32
+	Semicolon	shift 103
+	Equals	shift 21
+	LBracket	reduce by rule 32
+	Let	reduce by rule 32
+	End	reduce by rule 35
+	If	reduce by rule 32
+	Fn	reduce by rule 32
+	While	reduce by rule 32
+	Handle	shift 20
+	Raise	reduce by rule 32
+	String	reduce by rule 32
+	Char	reduce by rule 32
+	Int	reduce by rule 32
+	True	reduce by rule 32
+	False	reduce by rule 32
+	Id	reduce by rule 32
+	Exclaim	reduce by rule 32
+
+
+	.	error
+
+
+state 116:
+
+	ValBind : Pat Equals . Exp 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 127
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+
+state 117:
+
+	ValBind : Rec Id . Equals Exp 
+
+	Equals	shift 128
+
+
+	.	error
+
+
+state 118:
+
+	FunBind : FunBind And . FunBind 
+
+	Id	shift 98
+
+	FunBind	goto 129
+	FunMatch	goto 96
+	CurriedFun	goto 95
+
+	.	error
+
+
+state 119:
+
+	CurriedFun : Id PatternSeq . Equals Exp 
+	CurriedFun : Id PatternSeq . Equals Exp VerticalBar CurriedFun 
+
+	Equals	shift 130
+
+
+	.	error
+
+error:  state 120: shift/reduce conflict (shift Equals, reduce by rule 55)
+
+state 120:
+
+	Pat : Pat . ListCons Pat 
+	PatternSeq : Pat .  (reduce by rule 55)
+	PatternSeq : Pat . PatternSeq 
+	FunMatch : Id Pat . Equals Exp 
+	FunMatch : Id Pat . Equals Exp VerticalBar FunMatch 
+
+	LParen	shift 50
+	ListCons	shift 81
+	Underscore	shift 49
+	Equals	shift 133
+	LBracket	shift 48
+	String	shift 47
+	Char	shift 46
+	Int	shift 45
+	True	shift 44
+	False	shift 43
+	Id	shift 42
+
+	Pat	goto 132
+	PatternSeq	goto 131
+
+	.	error
+
+
+state 121:
+
+	Expressions : Exp Comma Expressions .  (reduce by rule 34)
+
+	RParen	reduce by rule 34
+	RBracket	reduce by rule 34
+
+
+	.	error
+
+
+state 122:
+
+	ExpSequence : Exp Semicolon ExpSequence .  (reduce by rule 36)
+
+	RParen	reduce by rule 36
+	End	reduce by rule 36
+
+
+	.	error
+
+
+state 123:
+
+	MatchExp : Pat Arrow Exp VerticalBar . MatchExp 
+
+	LParen	shift 50
+	Underscore	shift 49
+	LBracket	shift 48
+	String	shift 47
+	Char	shift 46
+	Int	shift 45
+	True	shift 44
+	False	shift 43
+	Id	shift 42
+
+	MatchExp	goto 134
+	Pat	goto 40
+
+	.	error
+
+
+state 124:
+
+	Patterns : Pat Comma Patterns .  (reduce by rule 54)
+
+	RParen	reduce by rule 54
+	RBracket	reduce by rule 54
+
+
+	.	error
+
+
+state 125:
+
+	Exp : If Exp Then Exp Else . FuncExp 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 38
+	Con	goto 2
+	FuncExp	goto 135
+
+	.	error
+
+
+state 126:
+
+	Exp : Let DecSeq In ExpSequence End .  (reduce by rule 26)
+
+	EOF	reduce by rule 26
+	LParen	reduce by rule 26
+	RParen	reduce by rule 26
+	Plus	reduce by rule 26
+	Minus	reduce by rule 26
+	Times	reduce by rule 26
+	Div	reduce by rule 26
+	Mod	reduce by rule 26
+	Greater	reduce by rule 26
+	Less	reduce by rule 26
+	GreaterEqual	reduce by rule 26
+	LessEqual	reduce by rule 26
+	NotEqual	reduce by rule 26
+	Append	reduce by rule 26
+	ListCons	reduce by rule 26
+	Comma	reduce by rule 26
+	Tilde	reduce by rule 26
+	Semicolon	reduce by rule 26
+	Equals	reduce by rule 26
+	VerticalBar	reduce by rule 26
+	LBracket	reduce by rule 26
+	RBracket	reduce by rule 26
+	Fun	reduce by rule 26
+	Let	reduce by rule 26
+	Val	reduce by rule 26
+	In	reduce by rule 26
+	End	reduce by rule 26
+	If	reduce by rule 26
+	Then	reduce by rule 26
+	Else	reduce by rule 26
+	Fn	reduce by rule 26
+	While	reduce by rule 26
+	Do	reduce by rule 26
+	Handle	reduce by rule 26
+	Raise	reduce by rule 26
+	And	reduce by rule 26
+	String	reduce by rule 26
+	Char	reduce by rule 26
+	Int	reduce by rule 26
+	True	reduce by rule 26
+	False	reduce by rule 26
+	Id	reduce by rule 26
+	Exclaim	reduce by rule 26
+
+
+	.	error
+
+
+state 127:
+
+	Exp : Exp . Plus FuncExp 
+	Exp : Exp . Minus FuncExp 
+	Exp : Exp . Times FuncExp 
+	Exp : Exp . Div FuncExp 
+	Exp : Exp . Mod FuncExp 
+	Exp : Exp . Greater FuncExp 
+	Exp : Exp . GreaterEqual FuncExp 
+	Exp : Exp . Less FuncExp 
+	Exp : Exp . LessEqual FuncExp 
+	Exp : Exp . Equals FuncExp 
+	Exp : Exp . NotEqual FuncExp 
+	Exp : Exp . Append FuncExp 
+	Exp : Exp . ListCons FuncExp 
+	Exp : Exp . Handle MatchExp 
+	ValBind : Pat Equals Exp .  (reduce by rule 61)
+	FuncExp : Exp .  (reduce by rule 32)
+
+	LParen	reduce by rule 32
+	Plus	shift 33
+	Minus	shift 32
+	Times	shift 31
+	Div	shift 30
+	Mod	shift 29
+	Greater	shift 28
+	Less	shift 27
+	GreaterEqual	shift 26
+	LessEqual	shift 25
+	NotEqual	shift 24
+	Append	shift 23
+	ListCons	shift 22
+	Tilde	reduce by rule 32
+	Equals	shift 21
+	LBracket	reduce by rule 32
+	Fun	reduce by rule 61
+	Let	reduce by rule 32
+	Val	reduce by rule 61
+	In	reduce by rule 61
+	If	reduce by rule 32
+	Fn	reduce by rule 32
+	While	reduce by rule 32
+	Handle	shift 20
+	Raise	reduce by rule 32
+	String	reduce by rule 32
+	Char	reduce by rule 32
+	Int	reduce by rule 32
+	True	reduce by rule 32
+	False	reduce by rule 32
+	Id	reduce by rule 32
+	Exclaim	reduce by rule 32
+
+
+	.	error
+
+
+state 128:
+
+	ValBind : Rec Id Equals . Exp 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 136
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+error:  state 129: shift/reduce conflict (shift And, reduce by rule 65)
+
+state 129:
+
+	FunBind : FunBind . And FunBind 
+	FunBind : FunBind And FunBind .  (reduce by rule 65)
+
+	Fun	reduce by rule 65
+	Val	reduce by rule 65
+	In	reduce by rule 65
+	And	shift 118
+
+
+	.	error
+
+
+state 130:
+
+	CurriedFun : Id PatternSeq Equals . Exp 
+	CurriedFun : Id PatternSeq Equals . Exp VerticalBar CurriedFun 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 137
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+
+state 131:
+
+	PatternSeq : Pat PatternSeq .  (reduce by rule 56)
+
+	Equals	reduce by rule 56
+
+
+	.	error
+
+
+state 132:
+
+	Pat : Pat . ListCons Pat 
+	PatternSeq : Pat .  (reduce by rule 55)
+	PatternSeq : Pat . PatternSeq 
+
+	LParen	shift 50
+	ListCons	shift 81
+	Underscore	shift 49
+	Equals	reduce by rule 55
+	LBracket	shift 48
+	String	shift 47
+	Char	shift 46
+	Int	shift 45
+	True	shift 44
+	False	shift 43
+	Id	shift 42
+
+	Pat	goto 132
+	PatternSeq	goto 131
+
+	.	error
+
+
+state 133:
+
+	FunMatch : Id Pat Equals . Exp 
+	FunMatch : Id Pat Equals . Exp VerticalBar FunMatch 
+
+	LParen	shift 18
+	Tilde	shift 17
+	LBracket	shift 16
+	Let	shift 15
+	If	shift 14
+	Fn	shift 13
+	While	shift 12
+	Raise	shift 11
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 138
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+
+state 134:
+
+	MatchExp : Pat Arrow Exp VerticalBar MatchExp .  (reduce by rule 38)
+
+	EOF	reduce by rule 38
+	LParen	reduce by rule 38
+	RParen	reduce by rule 38
+	Plus	reduce by rule 38
+	Minus	reduce by rule 38
+	Times	reduce by rule 38
+	Div	reduce by rule 38
+	Mod	reduce by rule 38
+	Greater	reduce by rule 38
+	Less	reduce by rule 38
+	GreaterEqual	reduce by rule 38
+	LessEqual	reduce by rule 38
+	NotEqual	reduce by rule 38
+	Append	reduce by rule 38
+	ListCons	reduce by rule 38
+	Comma	reduce by rule 38
+	Tilde	reduce by rule 38
+	Semicolon	reduce by rule 38
+	Equals	reduce by rule 38
+	VerticalBar	reduce by rule 38
+	LBracket	reduce by rule 38
+	RBracket	reduce by rule 38
+	Fun	reduce by rule 38
+	Let	reduce by rule 38
+	Val	reduce by rule 38
+	In	reduce by rule 38
+	End	reduce by rule 38
+	If	reduce by rule 38
+	Then	reduce by rule 38
+	Else	reduce by rule 38
+	Fn	reduce by rule 38
+	While	reduce by rule 38
+	Do	reduce by rule 38
+	Handle	reduce by rule 38
+	Raise	reduce by rule 38
+	And	reduce by rule 38
+	String	reduce by rule 38
+	Char	reduce by rule 38
+	Int	reduce by rule 38
+	True	reduce by rule 38
+	False	reduce by rule 38
+	Id	reduce by rule 38
+	Exclaim	reduce by rule 38
+
+
+	.	error
+
+error:  state 135: shift/reduce conflict (shift Exclaim, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift Id, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift False, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift True, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift Int, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift Char, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift String, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift Raise, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift While, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift Fn, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift If, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift Let, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift LBracket, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift Tilde, reduce by rule 29)
+error:  state 135: shift/reduce conflict (shift LParen, reduce by rule 29)
+
+state 135:
+
+	Exp : FuncExp . Exp 
+	Exp : If Exp Then Exp Else FuncExp .  (reduce by rule 29)
+
+	EOF	reduce by rule 29
+	LParen	shift 18
+	RParen	reduce by rule 29
+	Plus	reduce by rule 29
+	Minus	reduce by rule 29
+	Times	reduce by rule 29
+	Div	reduce by rule 29
+	Mod	reduce by rule 29
+	Greater	reduce by rule 29
+	Less	reduce by rule 29
+	GreaterEqual	reduce by rule 29
+	LessEqual	reduce by rule 29
+	NotEqual	reduce by rule 29
+	Append	reduce by rule 29
+	ListCons	reduce by rule 29
+	Comma	reduce by rule 29
+	Tilde	shift 17
+	Semicolon	reduce by rule 29
+	Equals	reduce by rule 29
+	VerticalBar	reduce by rule 29
+	LBracket	shift 16
+	RBracket	reduce by rule 29
+	Fun	reduce by rule 29
+	Let	shift 15
+	Val	reduce by rule 29
+	In	reduce by rule 29
+	End	reduce by rule 29
+	If	shift 14
+	Then	reduce by rule 29
+	Else	reduce by rule 29
+	Fn	shift 13
+	While	shift 12
+	Do	reduce by rule 29
+	Handle	reduce by rule 29
+	Raise	shift 11
+	And	reduce by rule 29
+	String	shift 10
+	Char	shift 9
+	Int	shift 8
+	True	shift 7
+	False	shift 6
+	Id	shift 5
+	Exclaim	shift 4
+
+	Exp	goto 19
+	Con	goto 2
+	FuncExp	goto 1
+
+	.	error
+
+
+state 136:
+
+	Exp : Exp . Plus FuncExp 
+	Exp : Exp . Minus FuncExp 
+	Exp : Exp . Times FuncExp 
+	Exp : Exp . Div FuncExp 
+	Exp : Exp . Mod FuncExp 
+	Exp : Exp . Greater FuncExp 
+	Exp : Exp . GreaterEqual FuncExp 
+	Exp : Exp . Less FuncExp 
+	Exp : Exp . LessEqual FuncExp 
+	Exp : Exp . Equals FuncExp 
+	Exp : Exp . NotEqual FuncExp 
+	Exp : Exp . Append FuncExp 
+	Exp : Exp . ListCons FuncExp 
+	Exp : Exp . Handle MatchExp 
+	ValBind : Rec Id Equals Exp .  (reduce by rule 62)
+	FuncExp : Exp .  (reduce by rule 32)
+
+	LParen	reduce by rule 32
+	Plus	shift 33
+	Minus	shift 32
+	Times	shift 31
+	Div	shift 30
+	Mod	shift 29
+	Greater	shift 28
+	Less	shift 27
+	GreaterEqual	shift 26
+	LessEqual	shift 25
+	NotEqual	shift 24
+	Append	shift 23
+	ListCons	shift 22
+	Tilde	reduce by rule 32
+	Equals	shift 21
+	LBracket	reduce by rule 32
+	Fun	reduce by rule 62
+	Let	reduce by rule 32
+	Val	reduce by rule 62
+	In	reduce by rule 62
+	If	reduce by rule 32
+	Fn	reduce by rule 32
+	While	reduce by rule 32
+	Handle	shift 20
+	Raise	reduce by rule 32
+	String	reduce by rule 32
+	Char	reduce by rule 32
+	Int	reduce by rule 32
+	True	reduce by rule 32
+	False	reduce by rule 32
+	Id	reduce by rule 32
+	Exclaim	reduce by rule 32
+
+
+	.	error
+
+
+state 137:
+
+	Exp : Exp . Plus FuncExp 
+	Exp : Exp . Minus FuncExp 
+	Exp : Exp . Times FuncExp 
+	Exp : Exp . Div FuncExp 
+	Exp : Exp . Mod FuncExp 
+	Exp : Exp . Greater FuncExp 
+	Exp : Exp . GreaterEqual FuncExp 
+	Exp : Exp . Less FuncExp 
+	Exp : Exp . LessEqual FuncExp 
+	Exp : Exp . Equals FuncExp 
+	Exp : Exp . NotEqual FuncExp 
+	Exp : Exp . Append FuncExp 
+	Exp : Exp . ListCons FuncExp 
+	Exp : Exp . Handle MatchExp 
+	FuncExp : Exp .  (reduce by rule 32)
+	CurriedFun : Id PatternSeq Equals Exp .  (reduce by rule 68)
+	CurriedFun : Id PatternSeq Equals Exp . VerticalBar CurriedFun 
+
+	LParen	reduce by rule 32
+	Plus	shift 33
+	Minus	shift 32
+	Times	shift 31
+	Div	shift 30
+	Mod	shift 29
+	Greater	shift 28
+	Less	shift 27
+	GreaterEqual	shift 26
+	LessEqual	shift 25
+	NotEqual	shift 24
+	Append	shift 23
+	ListCons	shift 22
+	Tilde	reduce by rule 32
+	Equals	shift 21
+	VerticalBar	shift 139
+	LBracket	reduce by rule 32
+	Fun	reduce by rule 68
+	Let	reduce by rule 32
+	Val	reduce by rule 68
+	In	reduce by rule 68
+	If	reduce by rule 32
+	Fn	reduce by rule 32
+	While	reduce by rule 32
+	Handle	shift 20
+	Raise	reduce by rule 32
+	And	reduce by rule 68
+	String	reduce by rule 32
+	Char	reduce by rule 32
+	Int	reduce by rule 32
+	True	reduce by rule 32
+	False	reduce by rule 32
+	Id	reduce by rule 32
+	Exclaim	reduce by rule 32
+
+
+	.	error
+
+
+state 138:
+
+	Exp : Exp . Plus FuncExp 
+	Exp : Exp . Minus FuncExp 
+	Exp : Exp . Times FuncExp 
+	Exp : Exp . Div FuncExp 
+	Exp : Exp . Mod FuncExp 
+	Exp : Exp . Greater FuncExp 
+	Exp : Exp . GreaterEqual FuncExp 
+	Exp : Exp . Less FuncExp 
+	Exp : Exp . LessEqual FuncExp 
+	Exp : Exp . Equals FuncExp 
+	Exp : Exp . NotEqual FuncExp 
+	Exp : Exp . Append FuncExp 
+	Exp : Exp . ListCons FuncExp 
+	Exp : Exp . Handle MatchExp 
+	FunMatch : Id Pat Equals Exp .  (reduce by rule 66)
+	FunMatch : Id Pat Equals Exp . VerticalBar FunMatch 
+	FuncExp : Exp .  (reduce by rule 32)
+
+	LParen	reduce by rule 32
+	Plus	shift 33
+	Minus	shift 32
+	Times	shift 31
+	Div	shift 30
+	Mod	shift 29
+	Greater	shift 28
+	Less	shift 27
+	GreaterEqual	shift 26
+	LessEqual	shift 25
+	NotEqual	shift 24
+	Append	shift 23
+	ListCons	shift 22
+	Tilde	reduce by rule 32
+	Equals	shift 21
+	VerticalBar	shift 140
+	LBracket	reduce by rule 32
+	Fun	reduce by rule 66
+	Let	reduce by rule 32
+	Val	reduce by rule 66
+	In	reduce by rule 66
+	If	reduce by rule 32
+	Fn	reduce by rule 32
+	While	reduce by rule 32
+	Handle	shift 20
+	Raise	reduce by rule 32
+	And	reduce by rule 66
+	String	reduce by rule 32
+	Char	reduce by rule 32
+	Int	reduce by rule 32
+	True	reduce by rule 32
+	False	reduce by rule 32
+	Id	reduce by rule 32
+	Exclaim	reduce by rule 32
+
+
+	.	error
+
+
+state 139:
+
+	CurriedFun : Id PatternSeq Equals Exp VerticalBar . CurriedFun 
+
+	Id	shift 142
+
+	CurriedFun	goto 141
+
+	.	error
+
+
+state 140:
+
+	FunMatch : Id Pat Equals Exp VerticalBar . FunMatch 
+
+	Id	shift 144
+
+	FunMatch	goto 143
+
+	.	error
+
+
+state 141:
+
+	CurriedFun : Id PatternSeq Equals Exp VerticalBar CurriedFun .  (reduce by rule 69)
+
+	Fun	reduce by rule 69
+	Val	reduce by rule 69
+	In	reduce by rule 69
+	And	reduce by rule 69
+
+
+	.	error
+
+
+state 142:
+
+	CurriedFun : Id . PatternSeq Equals Exp 
+	CurriedFun : Id . PatternSeq Equals Exp VerticalBar CurriedFun 
+
+	LParen	shift 50
+	Underscore	shift 49
+	LBracket	shift 48
+	String	shift 47
+	Char	shift 46
+	Int	shift 45
+	True	shift 44
+	False	shift 43
+	Id	shift 42
+
+	Pat	goto 132
+	PatternSeq	goto 119
+
+	.	error
+
+
+state 143:
+
+	FunMatch : Id Pat Equals Exp VerticalBar FunMatch .  (reduce by rule 67)
+
+	Fun	reduce by rule 67
+	Val	reduce by rule 67
+	In	reduce by rule 67
+	And	reduce by rule 67
+
+
+	.	error
+
+
+state 144:
+
+	FunMatch : Id . Pat Equals Exp 
+	FunMatch : Id . Pat Equals Exp VerticalBar FunMatch 
+
+	LParen	shift 50
+	Underscore	shift 49
+	LBracket	shift 48
+	String	shift 47
+	Char	shift 46
+	Int	shift 45
+	True	shift 44
+	False	shift 43
+	Id	shift 42
+
+	Pat	goto 145
+
+	.	error
+
+
+state 145:
+
+	Pat : Pat . ListCons Pat 
+	FunMatch : Id Pat . Equals Exp 
+	FunMatch : Id Pat . Equals Exp VerticalBar FunMatch 
+
+	ListCons	shift 81
+	Equals	shift 133
+
+
+	.	error
+
+
+state 146:
+
+
+	EOF	accept
+
+
+	.	error
+
+2413 of 3098 action table entries left after compaction
+197 goto table entries

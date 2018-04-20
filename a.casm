@@ -1,0 +1,13 @@
+Function: main/0
+Constants: None, 'Match Not Found', 0, 5, 4
+Globals: print, fprint, input, int, len, type, Exception, funlist, concat
+BEGIN
+    LOAD_CONST 2
+    LOAD_CONST 3
+    BINARY_SUBTRACT
+    LOAD_CONST 4
+    BINARY_ADD
+    POP_TOP
+    LOAD_CONST 0
+    RETURN_VALUE
+END

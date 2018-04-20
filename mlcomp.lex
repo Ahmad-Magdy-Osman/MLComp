@@ -66,8 +66,8 @@ period=[\.];
 "!" => (Tokens.Exclaim(!pos,!pos));
 ":=" => (Tokens.SetEqual(!pos,!pos));
 
-
-{tilde}?{digit}+  => (Tokens.Int(yytext,!pos,!pos));
+{tilde} => (Tokens.Tilde(!pos, !pos));
+{digit}+  => (Tokens.Int(yytext,!pos,!pos));
 {pound}{dquote}{anychar}{dquote} => (Tokens.Char(yytext,!pos,!pos));
 {dquote}{anycharbutquote}*{dquote} => (Tokens.String(yytext,!pos,!pos));
 {alpha}{alphanumeric}*=>
