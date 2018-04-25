@@ -1,12 +1,35 @@
 Function: main/0
-Constants: None, 'Match Not Found', 0, 5, 4
+Constants: None, 'Match Not Found', 0, "Please enter an integer: ", "The maximum is "
+Locals: y@1, x@0
 Globals: print, fprint, input, int, len, type, Exception, funlist, concat
 BEGIN
-    LOAD_CONST 2
+    LOAD_GLOBAL 3
+    LOAD_GLOBAL 2
     LOAD_CONST 3
-    BINARY_SUBTRACT
+    CALL_FUNCTION 1
+    CALL_FUNCTION 1
+    STORE_FAST 1
+    LOAD_GLOBAL 3
+    LOAD_GLOBAL 2
+    LOAD_CONST 3
+    CALL_FUNCTION 1
+    CALL_FUNCTION 1
+    STORE_FAST 0
+    LOAD_GLOBAL 1
     LOAD_CONST 4
-    BINARY_ADD
+    CALL_FUNCTION 1
+    POP_TOP
+    LOAD_GLOBAL 0
+    LOAD_FAST 1
+    LOAD_FAST 0
+    COMPARE_OP 4
+    POP_JUMP_IF_FALSE L1
+    LOAD_FAST 1
+    JUMP_FORWARD L0
+L1: 
+    LOAD_FAST 0
+L0: 
+    CALL_FUNCTION 1
     POP_TOP
     LOAD_CONST 0
     RETURN_VALUE
