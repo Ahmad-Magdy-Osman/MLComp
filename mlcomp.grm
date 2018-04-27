@@ -99,6 +99,8 @@ fun makeMatchList (nil) = raise emptyDecList
     | While
     | Do
     | Handle
+    | Case
+    | Of
     | Raise
     | And
     | Rec
@@ -168,6 +170,7 @@ Exp : Con                                                  (Con)
     | Exp NotEqual FuncExp                                 (infixexp("<>",Exp,FuncExp))
     | Exp Append FuncExp                                   (infixexp("@",Exp,FuncExp))
     | Tilde Exp                                            (negate(Exp))
+    | Case Exp Of MatchExp                                 (caseof(Exp, MatchExp))
     | Exp ListCons FuncExp                                 (infixexp("::",Exp,FuncExp))
     | LParen RParen                                        (tuplecon([]))
     | LParen Exp RParen                                    (Exp)

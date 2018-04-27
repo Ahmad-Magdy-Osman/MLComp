@@ -19,6 +19,7 @@ datatype
         | whiledo of exp * exp
         | func of int * match list
         | negate of exp
+        | caseof of exp * match list
   and
     match = match of pat * exp
   and
