@@ -668,6 +668,11 @@ typecheckTuplePats([],[],[]).
 typecheckTuplePats([H|T],[HT|TTypes],REnv) :- 
         typecheckPat(H,HT,HEnv), typecheckTuplePats(T,TTypes,TEnv), append(HEnv,TEnv,REnv).
 
+typecheckListPats([],[],[]).
+
+typecheckListPats([H|T],HT,REnv) :- 
+        typecheckPat(H,HT,HEnv), typecheckListPats(T,HT,TEnv), append(HEnv,TEnv,REnv).
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % type check lists with the typecheckListPats predicate here.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -679,6 +684,9 @@ typecheckPat(idpat(Name),A,[(Name,A)]) :- !.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Other patterns go here.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+typecheckPat(listpat(L),listpat(LT),NEnv) :- typecheckListPats(L,LT,NEnv), !.
+typecheckPat(tuplepat(L),tuplepat(TT),NEnv) :- print("I am here"), typecheckTuplePats(L,TT,NEnv), print(TT), nl, print(NEnv), nl, print("Now done with tuple"), !.
 
 typecheckPat(A,_,_) :- 
         nl, nl, print('Typechecker Error: Unknown pattern '), print(A), 
