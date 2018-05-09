@@ -767,6 +767,9 @@ typecheckTuple(Env,[Exp|T],[ExpT|TailType]) :- typecheckExp(Env,Exp,ExpT), typec
 % Typechecking sequences goes here with the typecheckSequence predicate that you write here.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+typecheckSequence(Env,[EN],T) :- typecheckExp(Env,EN,T).
+typecheckSequence(Env,[EI|RestSeq],T) :- typecheckExp(Env,EI,_), typecheckSequence(Env, RestSeq,T).
+
 typecheckList(_,[],_) :- !.
 
 typecheckList(Env,[H|T],A) :- typecheckExp(Env,H,A), typecheckList(Env,T,A), !.
