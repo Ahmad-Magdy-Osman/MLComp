@@ -381,6 +381,10 @@ printPat(boolpat(B)) :- print(B), !.
 
 printPat(strpat(S)) :- print(S), !.
 
+printPat(wildcardpat):- print(wildcardpat), !.
+
+printPat(aspat(S, Pat)):- print(S),print(' '),  print('as'), print(' '), printPat(Pat), !.
+
 printPat(A) :- 
         nl, nl, print('Typechecker Error: Unknown pattern '), print(A),
         nl, nl, throw(error('printPat: unknown pattern')).
@@ -673,6 +677,10 @@ typecheckListPats([],_,[]).
 typecheckListPats([Pati|T],Alpha,REnv) :- 
         typecheckPat(Pati,Alpha,EPati), typecheckListPats(T,Alpha,TEnv), append(EPati,TEnv,REnv).
 
+typecheckInfixPats([],[],[]).
+
+typecheckInfixPats([H|T],HT,[HEnv|TEnv]) :- typecheckPat(H,HT,HEnv), typecheckPat(T,HT,TEnv).
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % type check lists with the typecheckListPats predicate here.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -681,12 +689,19 @@ typecheckPat(idpat(nil),listOf(_),[]) :- !.
 
 typecheckPat(idpat(Name),A,[(Name,A)]) :- !.
 
+typecheckPat(wildcardpat, _, _):-!.
+
+typecheckPat(wildcardpat,A,[A]) :- !.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Other patterns go here.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 typecheckPat(listpat(L),listOf(Alpha),NEnv) :- typecheckListPats(L,Alpha,NEnv), !.
 typecheckPat(tuplepat(L),tuple(TT),NEnv) :- typecheckTuplePats(L,TT,NEnv), !.
+
+typecheckPat(infixpat(::,Pat1,Pat2),listOf(Alpha),HEnv) :- typecheckListPats([Pat1,Pat2],Alpha,HEnv).
+typecheckPat(aspat(Var,Pat),Alpha,[(Var,Alpha)|EPat]) :- typecheckPat(Pat,Alpha,EPat).
 
 typecheckPat(A,_,_) :- 
         nl, nl, print('Typechecker Error: Unknown pattern '), print(A), 

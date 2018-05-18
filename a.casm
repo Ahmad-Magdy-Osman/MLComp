@@ -1,17 +1,17 @@
 Function: main/0
-Constants: None, 'Match Not Found', 0, "hello", "my name is", "world", "!"
-Locals: excl@0, world@0, hello@0
+Constants: None, 'Match Not Found', 0, 1, 2, 4
+Locals: y@0, x@0
 Globals: print, fprint, input, int, len, type, Exception, funlist, concat
 BEGIN
     LOAD_CONST 3
     LOAD_CONST 4
+    BUILD_FUNLIST 0
     LOAD_CONST 5
-    LOAD_CONST 6
     BUILD_TUPLE 4
     SELECT_TUPLE 4
-    STORE_FAST 2
-    POP_TOP 
     STORE_FAST 1
+    POP_TOP 
+    POP_TOP 
     STORE_FAST 0
     JUMP_FORWARD L1
 L0:
@@ -20,10 +20,6 @@ L0:
     CALL_FUNCTION 1
     RAISE_VARARGS 1
 L1:
-    LOAD_GLOBAL 0
-    LOAD_FAST 2
-    CALL_FUNCTION 1
-    POP_TOP
     LOAD_GLOBAL 0
     LOAD_FAST 1
     CALL_FUNCTION 1
