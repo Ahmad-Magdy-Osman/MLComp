@@ -15,8 +15,8 @@ if [ -e $file ]; then
   cat a.term
   echo ************* Type Checking ****************
   swipl -f types.pro -g runNonInteractive --quiet
-#  echo ********* Target Program Execution *********
-#  coco a.casm
+  echo ********* Target Program Execution *********
+  coco a.casm
 else
   echo FILE DOES NOT EXIST
 fi

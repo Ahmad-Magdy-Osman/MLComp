@@ -566,6 +566,11 @@ find(Env,Name,Type) :-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % The typecheckMatch predicate goes here.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% book page 322
+% 326 p. for anonymous functions
+
+typecheckMatch(Env,Id,match(Pat,Exp)) :- find(Env,Id,fn(Alpha,Beta)), typecheckPat(Pat,Alpha,EPat), append(EPat,Env,NewEnv), typecheckExp(NewEnv,Exp,Beta).
+
 typecheckMatches(_,_,[]) :- !.
 
 typecheckMatches(Env,Name,[Match|Tail]) :- 

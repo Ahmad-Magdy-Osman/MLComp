@@ -5,6 +5,8 @@
    to use python 3.2 when running the disassembler. 
 *)
 
+(* Chapter 8 page 311 *)
+
 let val zero = 0 
     fun fib n = 
     let val i = ref zero
