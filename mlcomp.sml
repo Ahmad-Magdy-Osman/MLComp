@@ -321,6 +321,7 @@ open MLAS;
                | con(raisexp(t)) = (con t)
                | con(negate(t)) = (con t)
                | con(ifthen(t1,t2,t3)) = (con t1) @ (con t2) @ (con t3)
+               | con(whiledo(t1,t2)) = (con t1) @ (con t2)
                | con(listcon(L)) = (List.foldr (fn (x,y) => (con x)@y) [] L)
                | con(func(idnum,matchlist)) = ["code(anon@"^Int.toString(idnum)^")"]  
                | con(handlexp(t1,L)) = (con t1) @ ((List.foldr (fn (match(pat,exp),y) => (patConsts pat) @ (con exp) @ y) []) L)
@@ -390,6 +391,8 @@ open MLAS;
                | bindingsOf(ch(c),bindings,scope) = ()
                | bindingsOf(str(s),bindings,scope) = ()
                | bindingsOf(id("nil"),bindings,scope) = ()
+               | bindingsOf(id("!"),bindings,scope) = ()
+               | bindingsOf(id("ref"),bindings,scope) = ()
                | bindingsOf(id(name),bindings,scope) = check(name,bindings)
                | bindingsOf(listcon(L),bindings,scope) = (List.map (fn x => (bindingsOf(x,bindings,scope))) L; ())
                | bindingsOf(tuplecon(L),bindings,scope) = (List.map (fn x => (bindingsOf(x,bindings,scope))) L; ())
@@ -417,6 +420,7 @@ open MLAS;
                | bindingsOf(negate(exp),bindings,scope) = bindingsOf(exp,bindings,scope)
                | bindingsOf(expsequence(L),bindings,scope) = (List.map (fn x => (bindingsOf(x,bindings,scope))) L; ())
                | bindingsOf(ifthen(exp1,exp2,exp3), bindings, scope) = (bindingsOf(exp1, bindings, scope); bindingsOf(exp2, bindings, scope); bindingsOf(exp3,bindings,scope))
+               | bindingsOf(whiledo(exp1,exp2),bindings,scope) = (bindingsOf(exp1,bindings,scope); bindingsOf(exp2,bindings,scope))
                | bindingsOf(letdec(d,L2),bindings,scope) = 
                  let val newbindings = decbindingsOf(d,bindings,scope)
                  in 
@@ -440,10 +444,10 @@ open MLAS;
                      ()
                  end 
 
-               | bindingsOf(other,bindings,scope) = 
+               (* | bindingsOf(other,bindings,scope) = 
                   (TextIO.output(TextIO.stdOut, "\nAttempt to call localBindings for expression not currently supported!\n");
                    TextIO.output(TextIO.stdOut, "Expression was: " ^ nameOf(other) ^ "\n");
-                   raise Unimplemented) 
+                   raise Unimplemented) *)
 
 
 
@@ -658,6 +662,19 @@ open MLAS;
             
        | codegen(id(name),outFile,indent,consts,locals,freeVars,cellVars,globals,env,globalBindings,scope) = 
          load(name,outFile,indent,locals,freeVars,cellVars,globals,env)
+
+	     | codegen(apply(id("ref"),t2),outFile,indent,consts,locals,freeVars,cellVars,globals,env,globalBindings,scope) = codegen(t2,outFile,indent,consts,locals,freeVars,cellVars,globals,env,globalBindings,scope)
+       
+       | codegen(apply(id("!"),t2),outFile,indent,consts,locals,freeVars,cellVars,globals,env,globalBindings,scope) = codegen(t2,outFile,indent,consts,locals,freeVars,cellVars,globals,env,globalBindings,scope)
+       
+       | codegen(infixexp(":=",id(name),t2),outFile,indent,consts,locals,freeVars,cellVars,globals,env,globalBindings,scope) =
+         let val _ = codegen(t2,outFile,indent,consts,locals,freeVars,cellVars,globals,env,globalBindings,scope)
+             val noneIndex =
+                lookupIndex("None",consts)
+             in
+                store(name,outFile,indent,locals,freeVars,cellVars,globals,(name,boundTo(name,env@globalBindings))::env@globalBindings);
+               TextIO.output(outFile, indent^"LOAD_CONST "^noneIndex^"\n")
+            end
 
        | codegen(apply(t1,t2),outFile,indent,consts,locals,freeVars,cellVars,globals,env,globalBindings,scope) =
          let val _ = codegen(t1,outFile,indent,consts,locals,freeVars,cellVars,globals,env,globalBindings,scope)
@@ -875,6 +892,20 @@ open MLAS;
               )
           end
 
+       | codegen(whiledo(e1,e2),outFile,indent,consts,locals,freeVars,cellVars,globals,env,globalBindings,scope)=
+         let val L0=nextLabel()
+            val L1=nextLabel()
+         in
+            (
+            TextIO.output(outFile,L0^": \n");
+            codegen(e1,outFile,indent,consts,locals,freeVars,cellVars,globals,env,globalBindings,scope);
+            TextIO.output(outFile,indent^"POP_JUMP_IF_FALSE "^L1^"\n");
+            codegen(e2,outFile,indent,consts,locals,freeVars,cellVars,globals,env,globalBindings,scope);
+            TextIO.output(outFile,indent^"JUMP_ABSOLUTE "^L0^"\n");
+            TextIO.output(outFile,L1^": \n")
+            )
+         end
+
        | codegen(other,outFile,indent,consts,locals,freeVars,cellVars,globals,env,globalBindings,scope) =
          (TextIO.output(TextIO.stdOut, "\nAttempt to compile expression not currently supported!\n");
           TextIO.output(TextIO.stdOut, "Expression was: " ^ nameOf(other) ^ "\n");
@@ -1041,9 +1072,14 @@ open MLAS;
           List.foldl (fn (x,y) => patmatch(x,outFile,indent,consts,locals,freeVars,cellVars,globals,env,scope,label) @ y) [] L)
 
        | patmatch(listpat(L),outFile,indent,consts,locals,freeVars,cellVars,globals,env,scope,label) =
-          (TextIO.output(outFile,indent^"SELECT_FUNLIST \n");
-          List.foldl (fn (x,y) => patmatch(x,outFile,indent,consts,locals,freeVars,cellVars,globals,env,scope,label) @ y) [] L)
-
+          let fun listpathelper(x,y)=(
+            (TextIO.output(outFile,indent^"SELECT_FUNLIST \n");
+             patmatch(x,outFile,indent,consts,locals,freeVars,cellVars,globals,env,scope,label) @ y)
+            )
+            in
+             List.foldl listpathelper [] L
+            end
+        
        | patmatch(_,outFile,indent,consts,locals,freeVars,cellVars,globals,env,scope,label) =
          (TextIO.output(TextIO.stdOut, "\nAttempt to compile unsupported pattern match!\n");
           raise Unimplemented)   
@@ -1122,7 +1158,7 @@ open MLAS;
                | functions(raisexp(e)) = (functions e)
                | functions(negate(e)) = (functions e)
                | functions(ifthen(e1,e2,e3))=(functions e1; functions e2; functions e3)
-			
+               | functions(whiledo(exp1,exp2)) = (functions exp1;functions exp2)
                | functions(expsequence(L)) = (List.map (fn x => (functions x)) L; ())
                | functions(letdec(d,L2)) = 
                  let val newbindings = #1(localBindings(letdec(d,[]),env,globalBindings,scope))
@@ -1136,10 +1172,10 @@ open MLAS;
                  in
                    nestedfun(name,L,outFile,indent,globals,env,globalBindings,scope) 
                  end
-               | functions(other) =
+               (* | functions(other) =
                   (TextIO.output(TextIO.stdOut, "\nAttempt to call nestedfuns functions function for expression not currently supported!\n");
                    TextIO.output(TextIO.stdOut, "Expression was: " ^ nameOf(other) ^ "\n");
-                   raise Unimplemented)   
+                   raise Unimplemented)   *)
  
              and dec(bindval(pat,exp)) = functions exp
                | dec(bindvalrec(idpat(name),func(idnum,L))) = 
@@ -1223,7 +1259,7 @@ open MLAS;
                | functions(raisexp(e)) = (functions e)
                | functions(negate(e)) = (functions e)
                | functions(ifthen(e1,e2,e3)) =  (functions e1; functions e2; functions e3)
-
+               | functions(whiledo(exp1,exp2)) = (functions exp1;functions exp2)
 
                | functions(expsequence(L)) = (List.map (fn x => (functions x)) L; ())
 
@@ -1238,10 +1274,10 @@ open MLAS;
                    ()
                  end
                | functions(func(idnum,L)) = ()
-               | functions(other) = 
+               (* | functions(other) = 
                   (TextIO.output(TextIO.stdOut, "\nAttempt to call makeFunctions functions function for expression not currently supported!\n");
                    TextIO.output(TextIO.stdOut, "Expression was: " ^ nameOf(other) ^ "\n");
-                   raise Unimplemented)   
+                   raise Unimplemented) *)
         
              and dec(bindval(pat,exp)) = functions exp
                | dec(bindvalrec(idpat(name),func(idnum,L))) = 

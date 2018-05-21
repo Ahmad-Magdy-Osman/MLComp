@@ -798,6 +798,8 @@ typecheckList(Env,[H|T],A) :- typecheckExp(Env,H,A), typecheckList(Env,T,A), !.
 % The Anonymous Function typecheck goes here. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+typecheckExp(Env,func(Id,Matches),T) :- typecheckMatches([_,func(Id,T)|Env],Id,Matches), !.
+
 typecheckExp(Env,handlexp(Exp1,Matches), T) :- 
         typecheckExp(Env,Exp1,T), typecheckMatches([('handle@',fn(exn,T))|Env],'handle@',Matches), !.
 
@@ -832,6 +834,8 @@ typecheckExp(Env,ifthen(Exp1,_,_), _) :-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Case and While Do Go here
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+typecheckExp(Env,whiledo(Exp1,Exp2),RT) :- typecheckExp(Env,Exp1,bool),typecheckExp(Env,Exp2,RT), !.
 
 typecheckExp(Env,apply(Exp1,Exp2),ITT) :- 
         typecheckExp(Env,Exp1,fn(FT,TT)), typecheckExp(Env,Exp2,Exp2Type), inst(Exp2Type,Exp2TypeInst),

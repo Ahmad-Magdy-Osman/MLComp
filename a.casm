@@ -1,31 +1,132 @@
 Function: main/0
-Constants: None, 'Match Not Found', 0, 1, 2, 4
-Locals: y@0, x@0
+    Function: map/1
+        Function: anon@3/1
+            Function: anon@2/1
+            Constants: None, 'Match Not Found', 0
+            Locals: anon@2@Param, f@3, h@3, t@3
+            FreeVars: map
+            Globals: print, fprint, input, int, len, type, Exception, funlist, concat
+            BEGIN
+                LOAD_FAST 0
+                SELECT_TUPLE 2
+                STORE_FAST 1
+                LOAD_GLOBAL 4
+                ROT_TWO
+                CALL_FUNCTION 1
+                LOAD_CONST 2
+                COMPARE_OP 2
+                POP_JUMP_IF_FALSE L0
+                BUILD_FUNLIST 0
+                RETURN_VALUE
+L0:
+                LOAD_FAST 0
+                SELECT_TUPLE 2
+                STORE_FAST 1
+                DUP_TOP
+                LOAD_GLOBAL 4
+                ROT_TWO
+                CALL_FUNCTION 1
+                LOAD_CONST 2
+                COMPARE_OP 4
+                POP_JUMP_IF_FALSE L1
+                SELECT_FUNLIST
+                STORE_FAST 2
+                STORE_FAST 3
+                LOAD_FAST 1
+                LOAD_FAST 2
+                CALL_FUNCTION 1
+                LOAD_DEREF 0
+                LOAD_FAST 1
+                CALL_FUNCTION 1
+                LOAD_FAST 3
+                CALL_FUNCTION 1
+                CONS_FUNLIST
+                RETURN_VALUE
+L1:
+                LOAD_GLOBAL 6
+                LOAD_CONST 1
+                CALL_FUNCTION 1
+                RAISE_VARARGS 1
+            END
+        Constants: None, 'Match Not Found', 0, code(anon@2)
+        Locals: anon@3@Param, v1@2
+        FreeVars: v0@1, map
+        Globals: print, fprint, input, int, len, type, Exception, funlist, concat
+        BEGIN
+            LOAD_FAST 0
+            STORE_FAST 1
+            LOAD_CLOSURE 1
+            BUILD_TUPLE 1
+            LOAD_CONST 3
+            MAKE_CLOSURE 0
+            LOAD_DEREF 0
+            LOAD_FAST 1
+            BUILD_TUPLE 2
+            CALL_FUNCTION 1
+            RETURN_VALUE
+L2:
+            LOAD_GLOBAL 6
+            LOAD_CONST 1
+            CALL_FUNCTION 1
+            RAISE_VARARGS 1
+        END
+    Constants: None, 'Match Not Found', 0, code(anon@3)
+    Locals: map@Param
+    FreeVars: map
+    CellVars: v0@1
+    Globals: print, fprint, input, int, len, type, Exception, funlist, concat
+    BEGIN
+        LOAD_FAST 0
+        STORE_DEREF 0
+        LOAD_CLOSURE 0
+        LOAD_CLOSURE 1
+        BUILD_TUPLE 2
+        LOAD_CONST 3
+        MAKE_CLOSURE 0
+        RETURN_VALUE
+L3:
+        LOAD_GLOBAL 6
+        LOAD_CONST 1
+        CALL_FUNCTION 1
+        RAISE_VARARGS 1
+    END
+    Function: anon@4/1
+    Constants: None, 'Match Not Found', 0, 1
+    Locals: anon@4@Param, x@2
+    Globals: print, fprint, input, int, len, type, Exception, funlist, concat
+    BEGIN
+        LOAD_FAST 0
+        STORE_FAST 1
+        LOAD_FAST 1
+        LOAD_CONST 3
+        BINARY_ADD
+        RETURN_VALUE
+L4:
+        LOAD_GLOBAL 6
+        LOAD_CONST 1
+        CALL_FUNCTION 1
+        RAISE_VARARGS 1
+    END
+Constants: None, 'Match Not Found', 0, code(map), code(anon@4), 1, 2, 3, 4
+CellVars: map
 Globals: print, fprint, input, int, len, type, Exception, funlist, concat
 BEGIN
+    LOAD_CLOSURE 0
+    BUILD_TUPLE 1
     LOAD_CONST 3
+    MAKE_CLOSURE 0
+    STORE_DEREF 0
+    LOAD_GLOBAL 0
+    LOAD_DEREF 0
     LOAD_CONST 4
-    BUILD_FUNLIST 0
+    MAKE_FUNCTION 0
+    CALL_FUNCTION 1
     LOAD_CONST 5
-    BUILD_TUPLE 4
-    SELECT_TUPLE 4
-    STORE_FAST 1
-    POP_TOP 
-    POP_TOP 
-    STORE_FAST 0
-    JUMP_FORWARD L1
-L0:
-    LOAD_GLOBAL 6
-    LOAD_CONST 1
+    LOAD_CONST 6
+    LOAD_CONST 7
+    LOAD_CONST 8
+    BUILD_FUNLIST 4
     CALL_FUNCTION 1
-    RAISE_VARARGS 1
-L1:
-    LOAD_GLOBAL 0
-    LOAD_FAST 1
-    CALL_FUNCTION 1
-    POP_TOP
-    LOAD_GLOBAL 0
-    LOAD_FAST 0
     CALL_FUNCTION 1
     POP_TOP
     LOAD_CONST 0
