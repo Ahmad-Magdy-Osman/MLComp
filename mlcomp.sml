@@ -449,9 +449,14 @@ open MLAS;
                    TextIO.output(TextIO.stdOut, "Expression was: " ^ nameOf(other) ^ "\n");
                    raise Unimplemented) *)
 
-
-
-             and decbindingsOf(bindval(pat,exp),bindings,scope) = 
+             and decbindingsOf(bindval(idpat(name),apply(id("ref"),exp)),bindings,scope) =
+                  let val newbindings = patBindings(idpat(name),scope)
+                  in
+                    bindingsOf(exp,newbindings@bindings,scope+1);
+                    addIt(name,cellVars);
+                    [addIt((name,name^"@"^Int.toString(scope)),theBindings)]
+                  end
+              | decbindingsOf(bindval(pat,exp),bindings,scope) = 
                  let val newbindings = patBindings(pat,scope)
                  in
                    bindingsOf(exp,newbindings@bindings,scope+1);
