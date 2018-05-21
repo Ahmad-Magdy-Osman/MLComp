@@ -682,10 +682,6 @@ typecheckListPats([],_,[]).
 typecheckListPats([Pati|T],Alpha,REnv) :- 
         typecheckPat(Pati,Alpha,EPati), typecheckListPats(T,Alpha,TEnv), append(EPati,TEnv,REnv).
 
-typecheckInfixPats([],[],[]).
-
-typecheckInfixPats([H|T],HT,[HEnv|TEnv]) :- typecheckPat(H,HT,HEnv), typecheckPat(T,HT,TEnv).
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % type check lists with the typecheckListPats predicate here.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -705,7 +701,7 @@ typecheckPat(wildcardpat,A,[A]) :- !.
 typecheckPat(listpat(L),listOf(Alpha),NEnv) :- typecheckListPats(L,Alpha,NEnv), !.
 typecheckPat(tuplepat(L),tuple(TT),NEnv) :- typecheckTuplePats(L,TT,NEnv), !.
 
-typecheckPat(infixpat(::,Pat1,Pat2),listOf(Alpha),HEnv) :- typecheckListPats([Pat1,Pat2],Alpha,HEnv).
+typecheckPat(infixpat(::,Pat1,Pat2),listOf(Alpha),NEnv) :- typecheckPat(Pat1,Alpha,Envh), typecheckPat(Pat2,listOf(Alpha),Envt), append(Envh,Envt,NEnv).
 typecheckPat(aspat(Var,Pat),Alpha,[(Var,Alpha)|EPat]) :- typecheckPat(Pat,Alpha,EPat).
 
 typecheckPat(A,_,_) :- 
